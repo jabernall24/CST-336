@@ -65,3 +65,9 @@ ul {
 .hobby {
     color: yellow;
 }
+
+hr {
+    height: 10px;
+    width: 50%;
+    background-color: blue;
+}
