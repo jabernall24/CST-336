@@ -7,6 +7,11 @@ header, main, nav, footer{
     text-align: center
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
 nav a {
     padding: 60px;
     padding-top: 4px;
@@ -16,18 +21,16 @@ nav a {
     color: white;
 }
 
-nav a:hover {
+nav a:hover, #currentPage{
     border-bottom: 2px orange solid;
-    font-size: 2em;
-    transition: .9s;
 }
 
 #me, #welcomeText {
-    float: left
+    float: left;
 }
 
 #welcomeText {
-    text-align: left;
+    width: 200px;
 }
 
 footer {
