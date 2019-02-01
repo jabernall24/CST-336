@@ -1,0 +1,58 @@
+
+#image_logo {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    text-align: left;
+}
+
+nav {
+    border-color: blue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18pt;
+}
+
+.a-nav-style {
+    padding: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #fd9426
+}
+
+#activePage {
+    border-bottom: 2px solid #fd9426;
+}
+table {
+    background-color: #fd9426;
+    text-align: center;
+}
+
+#test {
+    padding-left: 50px;
+}
+
+tr {
+    background-color: white;
+}
+
+td {
+    padding: 7px;
+    background-color: white;
+}
+
+variable {
+    color: purple;
+}
+
+value {
+    color: blue;
+}
+
+footer {
+    text-align: center;
+}
