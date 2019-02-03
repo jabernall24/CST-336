@@ -7,7 +7,7 @@
     </head>
     
     <main id = "image_logo">
-        <img src="img/swift_logo.png" alt="Swift Logo"></img>
+        <img src="img/swift_logo.jpg" alt="Swift Logo"></img>
     </main>
     
     <br>
@@ -21,24 +21,57 @@
         </nav>
         
         <br>
-        
-        One of the things I love about Swift is that a ; is not needed at the end of each line. If you are familiar with other languagues you know that many of them require a ; at the end of each line.
-        
         <h3>Variables</h3>
-        <img src="img/var_example.png" alt="An example of declaring variable using var"></img> <br>
-        <variable><strong>var</strong></variable> is used when you want to declare a variable that will be changed in the future. For example <variable>var</variable> sum = <value>0</value> and later we can say <strong>sum</strong> += <value>4</value>. This is perfectly valid and <strong>sum</strong> will now equal to 4.
-        <br>
-        <img src="img/let_example.png" alt="An example of declaring variable using let"></img> <br>
-        <variable><strong>let</strong></variable> is used to declare a variable that will <strong>NOT</strong> change in the future. For example, if we say <variable>let</variable> sum = <value>0</value> and we later want to change it, it will not let us and throw us an error.
-        <br>
-        <strong>Type inference </strong>is used by Swift to infer the variable type. For example, you do not need to tell the variable name that it is a string because it can infer from the right side "Jesus" that it is a string.
+        <aside>
+            <div class="variables">
+                <img src="img/basics/var_example.png" alt="An example of declaring variable using var"></img> <br>
+                <p id="variable-text-left">If you want to declare a variable, for example, a sum that will change at a later time, using the keyword <strong>var</strong> will be what you 
+                want to use.</p>
+            </div>
+            <div class="variables">
+                <img src="img/basics/let_example.png" alt="An example of declaring variable using let"></img> <br>
+                <p id="variable-text-right">However, if you want to declare something that will not change you should be using the keyword <strong>let</strong>.</p>
+            </div>
+        </aside>
         
+        
+        <p>You may be wondering why I explicitly wrote the type of the variable for lastName but not for name. In reality it is not neccessary to do so 
+        because Swift has <strong>type inference</strong>. With type inference you can avoid the extra typing if you know the only possible type for that 
+        variable is what you want it to be. However, in some occassions type inference will be wrong and you will need to tell Swift exactly the type of 
+        variable you want. For example if you declare <strong>var sum = 0</strong> and at a later time attempt to add a <strong>float</strong> you will 
+        be unable to because Swift interprets sum as a float. To get around this you would type <strong>var sum:Float = 0</strong>. Now when you attempt 
+        to add a float to the sum you will be able to, but don't take my word for it, try it for yourself.</p>
+        
+        <br>To try it yourself, do the following. <br>
+        <ol>
+            <li>
+                Launch Xcode
+            </li>
+            <li>
+                To do everything here the playground will be more than enough. Click on "Get started with a playground" <br>
+                <img src="img/start_window.png" alt="screen seen when Xcode is opened"></img>
+            </li>
+            <li>
+                Select the Blank template and click "next" <br>
+                <img src="img/basics/playground/second_window.png" alt="screen seen when clickin on playground"></img>
+            </li>
+            <li>
+                Name the file whatever you want and save it in your desired location and click "create". <br>
+                <img src="img/basics/playground/third_window.png" alt="Screen seen when clicking next."></img>
+            </li>
+        </ol>
+        
+        
+        <h3>Printing</h3>
+        <p>When making an iOS application, the use of the <strong>print()</strong> function will not show the user anything, but this is a great tool to use 
+        for debugging your code. To use the <strong>print</strong> funtion simply type <strong>print("My string")</strong>. This will
+        print out "My string" to the console. To print out a variable simple do the following: <strong>print(variableName)</strong>.</p>
         
     </body>
     
     <footer>
         <hr>
-                CST-336. 2019&copy; Bernal <br>
+                CST-336. 2019&copy; Jesus A. Bernal Lopez<br>
                 <strong>Disclaimer:</strong> The information on this page is fictitous. <br>
                 It is used for academic purposes only <br>
                 <img src="../../img/csumb_logo.png" alt="CSUMB logo"/>

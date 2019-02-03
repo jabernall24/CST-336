@@ -1,4 +1,9 @@
-
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: white;
+}
 #image_logo {
     padding: 25px;
     display: flex;
@@ -6,7 +11,15 @@
 }
 
 h3 {
-    text-align: left;
+    text-align: center;
+}
+
+.variables {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
 }
 
 nav {
@@ -32,12 +45,12 @@ table {
     text-align: center;
 }
 
-#test {
-    padding-left: 50px;
-}
-
 tr {
     background-color: white;
+}
+
+th {
+    text-align: center;
 }
 
 td {
@@ -45,14 +58,27 @@ td {
     background-color: white;
 }
 
-variable {
-    color: purple;
-}
-
-value {
-    color: blue;
-}
-
 footer {
     text-align: center;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#variable-text-left {
+    padding-right: 30px;
+    padding-left: 0px;
+}
+
+#variable-text-right {
+    padding-left: 0px;
 }
