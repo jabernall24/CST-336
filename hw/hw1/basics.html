@@ -21,7 +21,8 @@
         </nav>
         
         <br>
-        <h3>Variables</h3>
+        <h1>Variables</h1>
+        <hr>
         <aside>
             <div class="variables">
                 <img src="img/basics/var_example.png" alt="An example of declaring variable using var"></img> <br>
@@ -35,14 +36,14 @@
         </aside>
         
         
-        <p>You may be wondering why I explicitly wrote the type of the variable for lastName but not for name. In reality it is not neccessary to do so 
+        <p><tab></tab>You may be wondering why I explicitly wrote the type of the variable for lastName but not for name. In reality it is not neccessary to do so 
         because Swift has <strong>type inference</strong>. With type inference you can avoid the extra typing if you know the only possible type for that 
         variable is what you want it to be. However, in some occassions type inference will be wrong and you will need to tell Swift exactly the type of 
         variable you want. For example if you declare <strong>var sum = 0</strong> and at a later time attempt to add a <strong>float</strong> you will 
         be unable to because Swift interprets sum as a float. To get around this you would type <strong>var sum:Float = 0</strong>. Now when you attempt 
         to add a float to the sum you will be able to, but don't take my word for it, try it for yourself.</p>
         
-        <br>To try it yourself, do the following. <br>
+        <br>To try it yourself, do the following. <br> <hr>
         <ol>
             <li>
                 Launch Xcode
@@ -61,12 +62,53 @@
             </li>
         </ol>
         
-        
-        <h3>Printing</h3>
+        <hr>
+        <h1>Printing</h1>
         <p>When making an iOS application, the use of the <strong>print()</strong> function will not show the user anything, but this is a great tool to use 
         for debugging your code. To use the <strong>print</strong> funtion simply type <strong>print("My string")</strong>. This will
         print out "My string" to the console. To print out a variable simple do the following: <strong>print(variableName)</strong>.</p>
         
+        <h1>Loops</h1>
+        <hr>
+        <aside>
+            <div class="loops">
+                <h3>While</h3>
+                <p><tab></tab>While loops do a certain step until a certain condition is false. An example of where the while loops are used are when your 
+                playing a game and when you loose it prompts a message asking if you want to play again. If you select yes, you start the game over (entering 
+                the while loop). If you select no, it takes you to the home screen or someplace(the condition is false).</p> <br>
+                <img src="img/basics/while_loop.png" alt="example of while loop" class="test"></img>
+            </div>
+            <div class="loops" id="loops-right">
+                <h3>For</h3>
+                <p><tab></tab>The other kind of loop in Swift is the <strong>for</strong> loop. In a for loop you give it a statement to run a certain amount 
+                of times or until you break it. You may also give it a range to iterate through and with for loop it is very easy to iterate through an array.</p>
+                <br><br><br>
+                <img src="img/basics/for_loop.png" alt="example of for loop" class="test"></img>
+            </div>
+        </aside>
+        <h6>If you are interested in learning more about loops you can head over <a href="https://www.weheartswift.com/loops/">here</a>.</h6>
+        
+        <h1>Arrays and Dictionaries</h1>
+        <hr>
+        
+        <div class="arrays-dictionaries">
+            <h3>Arrays</h3>
+            <p><tab></tab>An array is a data type that holds only one kind of value in Swift. It can hold any single value like an integer, 
+            string or even your own custom class that you called car. An array in Swift can be modified. What I mean by this
+            is that you can add values to the end of it by appending a new value to it. If you would like to know what else you can do 
+            with an array head over <a href="https://developer.apple.com/documentation/swift/array">here</a>.</p>
+            <br>
+            <img src="img/basics/array_example.png" alt="example of an array in Swift"></img>
+        </div>
+        <div class="arrays-dictionaries">
+           <h3>Dictionaries</h3>
+           <p><tab></tab>A dictionary is a collection whose elements are a key value pair. A dictionary in Swift funtions very much like you would think. It has a key(word) and a value(definition). Every key in a dictionary has to be the same type, 
+           however, the value can all be of different types. Finding a value in a dictionary is much simplier than with an array because all you need
+           to know is the key to find the value instead of haing to iterate over the whole dictionary. If you would like to learn more about dictionaries head
+           over <a href="https://www.tutorialspoint.com/swift/swift_dictionaries.htm">here</a>.</p>
+           <br>
+           <img src="img/basics/dictionary_example.png" alt="example of a dictionary in Swift"></img>
+        </div>
     </body>
     
     <footer>

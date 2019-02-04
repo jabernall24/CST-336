@@ -10,8 +10,14 @@ body {
     justify-content: center;
 }
 
+h1 {
+    text-align: center;
+    color: #fd9426;
+}
+
 h3 {
     text-align: center;
+    color: #fd6426;
 }
 
 .variables {
@@ -81,4 +87,29 @@ p {
 
 #variable-text-right {
     padding-left: 0px;
+}
+
+tab {
+    padding-left: 25px;
+}
+
+.loops {
+    width: 50%;
+    border-width: 2px;
+    border-color: #fd9426;
+    border-style: dotted;
+    padding-bottom: 20px;
+}
+
+#loops-right {
+    border-left-style: none;
+}
+
+.test {
+    display: block;
+    margin: auto;
+}
+
+.arrays-dictionaries {
+    text-align: center;
 }

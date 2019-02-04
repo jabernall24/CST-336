@@ -1,0 +1,43 @@
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18pt;
+}
+
+hr {
+    width: 700px;
+}
+
+h2 {
+    color: #a21fe3;
+}
+
+h1 {
+    color: #3bc89d;
+}
+
+#fall {
+    border-top-left-radius: 50px;
+}
+
+#spring {
+    border-top-right-radius: 50px;
+}
+
+#summer {
+    border-bottom-left-radius: 50px;
+}
+
+#winter {
+    border-bottom-right-radius: 50px;
+}
+
+img:hover {
+    width: 125%;
+}
