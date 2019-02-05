@@ -36,7 +36,253 @@
         <p><tab></tab>For this lesson, I will take a slightly different approach. I will be showing you code snippets
         of what we will be doing and then explain what each line does. So let's get started making our RNG app!</p>
         
+        <aside>
+            <div class="rowSnippets">
+                <img src="img/second_app/lower bound.png" alt="lowerBound constant decleration"></img>
+            </div>
+            <div class="rowSnippets">
+                <ol>
+                    <li>
+                        Declaring a constant with keyword let and calling it lowerBoundTextField and declaring it a UITextField
+                    </li>
+                    <li>
+                        Making constant t be of type UITextField()
+                    </li>
+                    <li>
+                        This will allow our text field to use auto layout
+                    </li>
+                    <li>
+                        Setting the background color of our text field to a nice cyan color
+                    </li>
+                    <li>
+                        Aligning the text in our text field to the center
+                    </li>
+                    <li>
+                        When the user clicks on the text field, it will show a numeric pad instead of the normal keyboard
+                    </li>
+                    <li>
+                        We return the t constant, essentially making it the lowerBoundTextField
+                    </li>
+                </ol>
+            </div>
+        </aside>
         
+        <aside>
+            <div class="rowSnippets">
+                <img src="img/second_app/upper bound.png" alt="upperBound constant decleration"></img>
+            </div>
+            <div class="rowSnippets">
+                <ol>
+                    <li>
+                        Declaring a constant with keyword let and calling it upperBoundTextField and declaring it a UITextField
+                    </li>
+                    <li>
+                        Making constant t be of type UITextField()
+                    </li>
+                    <li>
+                        This will allow our text field to use auto layout
+                    </li>
+                    <li>
+                        Setting the background color of our text field to a nice cyan color
+                    </li>
+                    <li>
+                        Aligning the text in our text field to the center
+                    </li>
+                    <li>
+                        When the user clicks on the text field, it will show a numeric pad instead of the normal keyboard
+                    </li>
+                    <li>
+                        We return the t constant, essentially making it the upperBoundTextField
+                    </li>
+                </ol>
+            </div>
+        </aside>
+        
+        <aside>
+            <div class="rowSnippets">
+                <img src="img/second_app/generate number button.png" alt="generateNumber constant decleration"></img>
+            </div>
+            <div class="rowSnippets">
+                <ol>
+                    <li>
+                        Declaring a constant with keyword let and calling it generateNumberButton and declaring it a UIButton
+                    </li>
+                    <li>
+                        Making constant b be of type UIButton()
+                    </li>
+                    <li>
+                        This will allow our text field to use auto layout
+                    </li>
+                    <li>
+                        Setting the title of the button's text to "Generate"
+                    </li>
+                    <li>
+                        Setting the backgroung color of the button to black
+                    </li>
+                    <li>
+                        Telling Xcode to go to the generateNumber function when this button is touched inside
+                    </li>
+                    <li>
+                        We return the b constant, essentially making it the generateNumberButton
+                    </li>
+                </ol>
+            </div>
+        </aside>
+        
+        <aside>
+            <div class="rowSnippets">
+                <img src="img/second_app/generate number funtion.png" alt="generateNumber function decleration"></img>
+            </div>
+            <div class="rowSnippets">
+                <ol>
+                    <li>
+                        Declare a function called generateNumber. The @objc is needed so that we are able to call it when
+                        the user taps the button
+                    </li>
+                    <li>
+                        We cast the value that the user enters into the lower bound text field and set it to the lowerBound constant.
+                        If Swift is unable to cast it to a number for whatever reason, it will exit out of the function and not run 
+                        the rest of the code in the function. ?? 0 means that if no text is in the text field it will set it to "0"
+                    </li>
+                    <li>
+                        We cast the value that the user enters into the upper bound text field and set it to the upperBound constant.
+                        If Swift is unable to cast it to a number for whatever reason, it will exit out of the function and not run 
+                        the rest of the code in the function. ?? 0 means that if no text is in the text field it will set it to "0"
+                    </li>
+                    <li>
+                        We make sure that the upper bound is greater than the lower bound to generate a number. If it is not, 
+                        we skip the if statement and in our case it does nothing else
+                    </li>
+                    <li>
+                        We generate a number from the lowerBound to the upperBound, cast it to a String and set the result of that 
+                        equal to the constant num
+                    </li>
+                    <li>
+                        We set text of randomNumberLabel equal to num (The random number we generated in the previous step)
+                    </li>
+                </ol>
+            </div>
+        </aside>
+        
+        <aside>
+            <div class="rowSnippets">
+                <img src="img/second_app/lower bound anchors.png" alt="lowerBound anchor code"></img>
+            </div>
+            <div class="rowSnippets">
+                <ol>
+                    <li>
+                    Instead of populating out viewDidLoad() with a bunch of code and making it look messy, we will 
+                    anchor our variable in a function called setUpView and just call it inside of viewDidLoad
+                    </li>
+                    <li>
+                        We declare a function called setUpView
+                    </li>
+                    <li>
+                        Add lowerBoundTextField to the screen
+                    </li>
+                    <li>
+                        Set the leading anchor of lowerBoundTextField equal to the edge of the screen and 8 pixels towards the inside
+                    </li>
+                    <li>
+                        Set the trailing anchor of lowerBoundTextField equal to middle of the screen and 8 pixels 
+                        towards the left.
+                    </li>
+                    <li>
+                        Set the center of the Y value of lowerBoundTextField to the center of the screen accross the y-axis
+                    </li>
+                    <li>
+                        Set the height of lowerBoundTextField to 50
+                    </li>
+                </ol>
+            </div>
+        </aside>
+        
+        <aside>
+            <div class="rowSnippets">
+                <img src="img/second_app/upper bound anchors.png" alt="upperBound anchor code"></img>
+            </div>
+            <div class="rowSnippets">
+                <ol>
+                    <li>
+                        Add upperBoundTextField to the screen
+                    </li>
+                    <li>
+                        Set the leading(left) anchor of upperBoundTextField to the center of the screen and 8 pixels 
+                        to the right
+                    </li>
+                    <li>
+                        Set the trailing(right) anchor of upperBoundTextField to the right of the screen and 8 pixels 
+                        towards the inside
+                    </li>
+                    <li>
+                        Set the center of the Y value of upperBoundTextField to the center of the screen accross the y-axis
+                    </li>
+                    <li>
+                        Set the height of lowerBoundTextField to 50
+                    </li>
+                </ol>
+            </div>
+        </aside>
+        
+        <aside>
+            <div class="rowSnippets">
+                <img src="img/second_app/random number anchors.png" alt="randomNumberLabel anchor code"></img>
+            </div>
+            <div class="rowSnippets">
+                <ol>
+                    <li>
+                        Add randomNumberLabel to the screen
+                    </li>
+                    <li>
+                        Set the leading(left) anchor of randomNumberLabel to the center of the screen and 8 pixels 
+                        to the right
+                    </li>
+                    <li>
+                        Set the trailing(right) anchor of randomNumberLabel to the right of the screen and 8 pixels 
+                        towards the inside
+                    </li>
+                    <li>
+                        Set the height of randomNumberLabel to be 200
+                    </li>
+                    <li>
+                        Set the bottom anchor of randomNumberLabel to be 25 pixels above the top anchor of lowerBoundTextField
+                    </li>
+                </ol>
+            </div>
+        </aside>
+        
+        <aside>
+            <div class="rowSnippets">
+                <img src="img/second_app/generate number anchors.png" alt="generateNumber anchor code"></img>
+            </div>
+            <div class="rowSnippets">
+                <ol>
+                    <li>
+                        Add generateNumberButton to the screen
+                    </li>
+                    <li>
+                        Set the width of generateNumberButton to be half of the screen
+                    </li>
+                    <li>
+                        Center generateNumberButton to the center of the screen across the x axis
+                    </li>
+                    <li>
+                        Set the top anchor of generateNumberButton to be 25 pixels below the bottom anchor of lowerBoundTextField
+                    </li>
+                    <li>
+                        Set the height of generateNumberButton to 100 pixels
+                    </li>
+                </ol>
+            </div>
+        </aside>
+        <br><br>
+        After completion your app should do the following.
+        <img src="https://imgur.com/04b6L0L.gif" alt="rng finished app gif example"></img>
+        
+        <br><br>
+        
+        If your app does not do the above or you would just like to look at the source code for RNG you can do 
+        so at my <a href="https://github.com/jabernall24/Random-Number-Generator">github</a> page.
     </body>
     
     <footer>

@@ -123,3 +123,11 @@ img {
     display: block;
     margin: 0 auto;
 }
+
+#table {
+    width: 30%;
+}
+
+#text {
+    width: 65%;
+}
