@@ -26,6 +26,7 @@ h3 {
 
 a {
     text-decoration: none;
+    color: #fd6426;
 }
 
 nav {
@@ -52,7 +53,7 @@ table {
 }
 
 tr {
-    background-color: white;
+    background-color: black;
 }
 
 th {
@@ -61,7 +62,7 @@ th {
 
 td {
     padding: 7px;
-    background-color: white;
+    background-color: black;
 }
 
 footer {
