@@ -114,3 +114,12 @@ tab {
 .arrays-dictionaries {
     text-align: center;
 }
+
+.code {
+    color: purple;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}

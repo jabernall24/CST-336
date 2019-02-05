@@ -4,6 +4,11 @@
         <meta charset="utf-8"/>
         <title>cst336: Hw 1</title>
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <style>
+            body {
+                text-align: center;
+            }
+        </style>
     </head>
     
     <main id = "image_logo">
@@ -16,8 +21,8 @@
         <nav>
             <a class="a-nav-style" href="index.html">Home</a>
             <a class="a-nav-style" href="basics.html">Basics</a>
-            <a class="a-nav-style" href="first_app.html" id="activePage">First</a>
-            <a class="a-nav-style" href="second_app.html">Second</a>
+            <a class="a-nav-style" href="first_app.html" id="activePage">Hello World</a>
+            <a class="a-nav-style" href="second_app.html">Random Number Generator</a>
         </nav>
         
         <br>
@@ -35,7 +40,107 @@
         <img src="img/third_window.png" alt=""/> <br> <br>
         Finally go ahead and save it where ever you want and click create.<br> <br>
         
+        <p><tab></tab>Before we do anything, let's go ahead and run our application. If all is going well, we should see a white screen.
+        To run the application go ahead and click on the little play button near the top left.</p>
         
+        <p><tab></tab>You may be asking yourself, what are we going to make? Well, we will be making a simple Hello World app. To do this in storyboard
+        it is dragging and dropping onto it and it is not really programming in my opinion. We will be doing the app fully programatically. By doing the app 
+        fully programatically it will make working on a team easier because changing one little thing in the storyboard changes the whole storyboard file making it 
+        very difficult to resolve those conflicts. Also, you are trying to learn to program so it is a good idea to get used to looking at code. So let's get started.</p>
+        
+        <ol>
+            <li>
+                Double click on the Main.storyboard file and delete it(move to trash). <br>
+                <img src="img/first_app/step1.png" alt="deleting Main.storyboard image"></img>
+            </li>
+            <li>
+                Delete the 'Main' from the Main Interface.
+                <img src="img/first_app/step2.png" alt="deleting Main from main interface"></img>
+            </li>
+            <li>
+                Head over to your AppDelegate.swift file and inside your didFinishLaunchingWithOptions funtion and write the following three lines.
+                <ul>
+                    <li>
+                        These three lines tells our program, 'Hey, when you start up head over to ViewController.swift file'. When working
+                        fully programatically these three lines are extremely important or else our app will crash.
+                    </li>
+                </ul>
+                <img src="img/first_app/step3.png" alt="writing the three lines of code to allow our program to run"></img>
+            </li>
+        </ol>
+            
+            <br><br>
+            
+            Now when you run it you should see a black screen. <br><br>
+            
+            <ol>
+                <li>
+                    Go to your ViewController.swift file and inside <strong>viewDidLoad()</strong> we will be changing the background
+                    color to white by typing: <strong class="code">view.backgroundColor = .white</strong> below super.viewDidLoad()
+                </li>
+                <li>
+                    Run it and your screen should be white again as when we started.
+                </li>
+            </ol>
+            
+            <h2>Now let's make the label that will say "Hello World"</h2>
+            <ol>
+                <li>
+                    Let's start by making out label a constant, giving it the name label and telling Xcode we want it to be 
+                    a UILabel. To do so type the following: <strong class="code">let label: UILabel = { }()</strong>.
+                </li>
+                <li>
+                    Inside the curly braces({}) is where the information about our label goes. Let's start off by typing in 
+                    the following two lines <strong class="code">let l = UILabel()</strong> and <strong class="code">return l</strong>. The first line 
+                    creates a constant l and sets it equal to a UILabel() the second line returns the label to our constant label.
+                </li>
+                <li>
+                    Next we need to tell Xcode we will be using auto layout for that just type the following: 
+                    <strong class="code">l.translatesAutoresizingMaskIntoConstraints = false</strong> in between the two lines we just wrote.
+                    If you are interested in learing more about translatesAutoresizingMaskIntoConstraints you can head over to the 
+                    <a href="https://developer.apple.com/documentation/uikit/uiview/1622572-translatesautoresizingmaskintoco">Apple Documentation.</a>
+                </li>
+                <li>
+                    Above our return, let's give our label some text, <strong class="code">l.text = "Hello World"</strong>.
+                </li>
+                <li>Below our text let's make our font a bit bigger, <strong class="code">l.font = UIFont.boldSystemFont(ofSize: 36)</strong></li>
+                <li>
+                    Now let's center it, <strong class="code">l.textAlignment = .center</strong>
+                </li>
+                <li>
+                    Let's give our text some color, <strong class="code">l.textColor = </strong> and start typing in color literal,
+                    you will see auto complete com up. Go on the one that says Color Literal and hit return. Double click on the new square
+                    on the right side of the equal sign and choose your favorite color.
+                    <br><img src="img/first_app/color_literal.png" alt="image to help know what you should be looking for in auto complete"></img>
+                </li>
+            </ol>
+            <br><br>
+            Your code should look like this. <br>
+            <img src="img/first_app/label_finished.png" alt="Image of how code should look like so far"></img>
+            
+            <br>
+            
+            <p>However, we are not done because if your run the program you will still see the white screen. Where the 
+            hell is our label you may ask? Well it is our fault because we have yet to add it to our view. To add it to our view it
+            very simple actually just by doing the following: <strong class="code">view.addSubview(label)</strong> below 
+            <strong class="code">view.backgroundColor = .white</strong> inside of viewDidLoad. However, we also need to give our label 
+            constraints. We need to contraint the top, bottom, left(leading) and right(trailing). However in our case our top and bottom 
+            will be centering in the x and y positions. We will anchor it by doing the following:</p>
+            
+            <br>
+            
+            <img src="img/first_app/constraining.png" alt="Image of contraining code"></img>
+            
+            <br><br>
+            Now when you run it, you will see "Hello World" printed out on the simulator.
+            
+            <img src="img/first_app/completed.png" alt="completed app"></img>
+            
+            <br><br>
+            
+            Congrats you have completed your first app, for an app that is a little bit more complex, head over 
+            <a href="second_app.html">here</a>.
+            
     </body>
     
     <footer>
