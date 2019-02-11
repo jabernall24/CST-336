@@ -1,0 +1,41 @@
+#something {
+    background-color: #002A4E;
+    width: 100%;
+    height: 80px;
+    font-size: 36pt;
+    color: white;
+    font-family: arial;
+}
+
+#degreeProgram {
+    display: flex;
+    justify-content: center;
+}
+
+.degreeProgram {
+    padding: 10px;
+    height: 237.7px;
+    width: 262.5px;
+}
+
+#intro {
+    padding-left: 20px;
+    font-size: 18pt;
+    font-family: 'Hind', sans-serif;
+}
+
+#scd {
+    padding-left: 20px;
+    vertical-align: middle;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #002A4E;
+    font-family: 'Hind', sans-serif;
+    font-size: 15pt;
+}
+
+h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
