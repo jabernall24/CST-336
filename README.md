@@ -1,1 +1,1 @@
-# CST-336
+# CST-336 (Internet Programming) Spring 2019 @ CSUMB
