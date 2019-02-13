@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> US Geography Quiz </title>
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        
+        <h1> US Geography Quiz </h1>
+        <h2> What is the capital of California? </h2>
+        <input type="text" id="q1">
+        <div id="q1_feedback"></div>
+        
+        <h2> What is the longest US River?</h2>
+        <select id="q2">
+            <option></option>
+            <option>Mississippi River</option>
+            <option>Missouri River</option>
+            <option>Colorado River</option>
+            <option>Delaware River</option>
+        </select>
+        <div id="q2_feedback"></div>
+        
+
+        <h2> What is the smalles US State? </h2>
+        <input type="radio" name="q3" id="maine" value="Maine"> <label for="maine">Maine</label>
+        <input type="radio" name="q3" id="ri" value="Rhode Island"> <label for="ri">Rhode Island</label> 
+        <input type="radio" name="q3" id="maryland" value="Maryland"> <label for="maryland">Maryland</label>
+        <input type="radio" name="q3" id="deleware" value="Delaware"> <label for="deleware">Delaware</label>
+        <div id="q3_feedback"></div>
+        
+        
+        <br><br>
+        <h2 id="totalPoints"></h2>
+        <br>
+        <button id="submitButton"> Submit </button>
+        
+        
+        <script SRC="js/functions.js"></script>
+        
+    </body>
+</html>
