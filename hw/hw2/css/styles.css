@@ -1,0 +1,8 @@
+body {
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: linear-gradient(to top right, #682784, gold);
+    color: white;
+}
