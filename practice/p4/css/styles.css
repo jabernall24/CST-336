@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+table {
+    margin: 0px auto;
+}
+
+.table-bordered {
+   border-color: purple;
+   border-spacing: 10px;
+   
+}
+
+.product {
+    width: 250px;
+}
