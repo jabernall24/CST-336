@@ -42,6 +42,8 @@ $(".updateTotal").on("change", function() {
 });
 
 $("#confirmBtn").on("click", function() {
+     $("#acceptSpan").css("color", "black");
+     $("#shippingSpan").html("");
     let noError = true;
     if (!$("#accept").is(":checked")){
         $("#acceptSpan").css("color", "red");
