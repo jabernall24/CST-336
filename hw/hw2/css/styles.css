@@ -6,3 +6,24 @@ body {
     background-image: linear-gradient(to top right, #682784, gold);
     color: white;
 }
+
+.center {
+    margin: 0 auto; 
+    display:table;
+    text-align: left;
+}
+
+.correct {
+    font-size: 40pt;
+    font-family: 'Luckiest Guy', bold;
+    background-image: linear-gradient(to right, red, #682784 20%, gold);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.incorrect {
+    font-size: 40pt;
+    font-family: 'Luckiest Guy', cursive;
+    color: green;
+}

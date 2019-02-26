@@ -12,6 +12,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        
+        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet"> 
     </head>
     <body>
         
@@ -21,49 +23,81 @@
             </div>
         </div>
         
-        <div id="q1">
-            <h2> What city are the Lakers from?</h2>
+        <h2> What city are the Lakers from?</h2>
+        <div class="center">
+            <input type="radio" name="q1" id="la" value="Los Angeles"> <label for="la"> Los Angeles </label> <br>
+            <input type="radio" name="q1" id="sd" value="San diego"> <label for="sd"> San Diego </label> <br>
+            <input type="radio" name="q1" id="mi" value="Minneapolis"> <label for="mi"> Minneapolis </label> <br>
+            <input type="radio" name="q1" id="ny" value="New York"> <label for="ny"> New York </label> <br>
         </div>
-        
-        <div id="q2">
-            <h2> What player has the most points in Lakers history? </h2>
+        <div id="q1_feedback"></div>
+
+        <h2> What player has the most points in Lakers history?(first and last name) </h2>
+        <input type="text" id="q2">
+        <div id="q2_feedback"></div>
+
+
+        <h2> What is the Lakers current logo? </h2>
+        <img src="img/not_lakers_2.png" alt="not lakers logo" class="q3_active" id="logo2">
+        <img src="img/lakers.png" alt="lakers logo" class="q3_active" id="logo3">
+        <img src="img/old_lakers.png" alt="not lakers logo" class="q3_active" id="logo4">
+        <div id="q3_feedback"></div>
+
+
+        <h2> What player(s) have won the most championships for the Lakers?</h2>
+        <div class="center">
+            <input type="checkbox" name="q4" id="Kareem"/><label for="Kareem"> Kareem Abdul-Jabbar </label> <br>
+            <input type="checkbox" name="q4" id="Kobe"/><label for="Kobe"> Kobe Bryant </label> <br>
+            <input type="checkbox" name="q4" id="Cooper"/><label for="Cooper"> Michael Cooper </label> <br>
+            <input type="checkbox" name="q4" id="Shaq"/><label for="Shaq"> Shaquille O'Neal </label> <br>
+            <input type="checkbox" name="q4" id="Magic"/><label for="Magic"> Magic Johnson </label> <br>
         </div>
+        <div id="q4_feedback"></div>
+
+
+        <h2> Before moving to their current city, what city did the Lakers play their home games in? </h2>
+        <input type="text" id="q5">
+        <div id="q5_feedback"></div>
+
+
+        <h2> How many championships have the Lakers won? </h2>
+        <select id="q6">
+            <option value=""> Select One </option>
+            <option> 10 </option>
+            <option> 9 </option>
+            <option> 16 </option>
+            <option> 17 </option>
+            <option> 13 </option>
+        </select>
+        <div id="q6_feedback"></div>
+
+
+        <h2>  </h2>
+
+
+        <h2>  </h2>
+
+
+        <h2>  </h2>
+
+
+        <h2>  </h2>
+
+        <button id="submitButton"> Submit </button>
         
-        <div id="q3">
-            <h2> What is the Lakers current logo? </h2>
-        </div>
+        <h3 id="score"></h3>
         
-        <div id="q4">
-            <h2> What player(s) have won the most championships for the Lakers?</h2>
-        </div>
-        
-        <div id="q5">
-            <h2> Before moving to their current city, what city did the Lakers play their home games in? </h2>
-        </div>
-        
-        <div id="q6">
-            <h2> How many championships have the Lakers won? </h2>
-        </div>
-        
-        <div id="q7">
-            <h2>  </h2>
-        </div>
-        
-        <div id="q8">
-            <h2>  </h2>
-        </div>
-        
-        <div id="q9">
-            <h2>  </h2>
-        </div>
-        
-        <div id="q10">
-            <h2>  </h2>
-        </div>
-        
-        <button id="startQuizButton"> Start Quiz </button>
+        <div id="validSubmission"></div>
 
         <script SRC="js/functions.js"></script>
+        <footer>
+            <hr>
+    
+            CST-336. 2019&copy; Jesus A. Bernal Lopez<br>
+            <strong>Disclaimer:</strong> The information on this page is fictitous. <br>
+            It is used for academic purposes only <br>
         
+            <img src="../../img/csumb_logo.png" alt="CSUMB logo"/>
+        </footer>
     </body>
 </html>

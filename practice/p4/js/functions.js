@@ -5,6 +5,7 @@ var shippingAmount = 0;
 var subtotalAmount = 0;
 var tax = 0;
 
+
 $("#microfiberBeachTowel").on("change", function(){
     microfiberAmount = parseInt($("#microfiberBeachTowel").val()) * 30;
     $("#microfiberBeachTowelTotal").html("$" + microfiberAmount);
