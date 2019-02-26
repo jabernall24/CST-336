@@ -27,3 +27,15 @@ body {
     font-family: 'Luckiest Guy', cursive;
     color: green;
 }
+
+a{
+    color: gold;
+}
+
+#submitButton {
+    background-color: #682784;
+    color: gold;
+    width: 100px;
+    height: 50px;
+    font-size: 18pt;
+}

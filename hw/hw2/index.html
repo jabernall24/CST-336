@@ -23,7 +23,7 @@
             </div>
         </div>
         
-        <h2> What city are the Lakers from?</h2>
+        <h2> <span id="q1_mark"></span> 1. What city are the Lakers from?</h2>
         <div class="center">
             <input type="radio" name="q1" id="la" value="Los Angeles"> <label for="la"> Los Angeles </label> <br>
             <input type="radio" name="q1" id="sd" value="San diego"> <label for="sd"> San Diego </label> <br>
@@ -32,19 +32,23 @@
         </div>
         <div id="q1_feedback"></div>
 
-        <h2> What player has the most points in Lakers history?(first and last name) </h2>
+        <br>
+        
+        <h2> <span id="q2_mark"></span> 2. What player has the most points in Lakers history?(first and last name) </h2>
         <input type="text" id="q2">
         <div id="q2_feedback"></div>
 
+        <br>
 
-        <h2> What is the Lakers current logo? </h2>
+        <h2> <span id="q3_mark"></span> 3. What is the Lakers current logo? </h2>
         <img src="img/not_lakers_2.png" alt="not lakers logo" class="q3_active" id="logo2">
         <img src="img/lakers.png" alt="lakers logo" class="q3_active" id="logo3">
         <img src="img/old_lakers.png" alt="not lakers logo" class="q3_active" id="logo4">
         <div id="q3_feedback"></div>
 
+        <br>
 
-        <h2> What player(s) have won the most championships for the Lakers?</h2>
+        <h2> <span id="q4_mark"></span> 4. What player(s) have won the most championships for the Lakers?</h2>
         <div class="center">
             <input type="checkbox" name="q4" id="Kareem"/><label for="Kareem"> Kareem Abdul-Jabbar </label> <br>
             <input type="checkbox" name="q4" id="Kobe"/><label for="Kobe"> Kobe Bryant </label> <br>
@@ -54,13 +58,15 @@
         </div>
         <div id="q4_feedback"></div>
 
+        <br>
 
-        <h2> Before moving to their current city, what city did the Lakers play their home games in? </h2>
+        <h2> <span id="q5_mark"></span> 5. Before moving to their current city, what city did the Lakers play their home games in? </h2>
         <input type="text" id="q5">
         <div id="q5_feedback"></div>
 
+        <br>
 
-        <h2> How many championships have the Lakers won? </h2>
+        <h2> <span id="q6_mark"></span> 6. How many championships have the Lakers won? </h2>
         <select id="q6">
             <option value=""> Select One </option>
             <option> 10 </option>
@@ -71,18 +77,56 @@
         </select>
         <div id="q6_feedback"></div>
 
+        <br>
 
-        <h2>  </h2>
+        <h2> <span id="q7_mark"></span> 7. What year did Lakers win their first championship? </h2>
+        <select id="q7">
+            <option value=""> Select One </option>
+            <option> 2010 </option>
+            <option> 1949 </option>
+            <option> 1930 </option>
+            <option> 1974 </option>
+        </select>
+        <div id="q7_feedback"></div>
+        
+        <br>
 
+        <h2> <span id="q8_mark"></span> 8. What player won rookie of the year while on the Lakers? </h2>
+        <select id="q8">
+            <option value=""> Select One </option>
+            <option> Kobe Bryant </option>
+            <option> Earvin 'Magic' Johnson </option>
+            <option> Pau Gasol </option>
+            <option> Elgin Baylor </option>
+        </select>
+        <div id="q8_feedback"></div>
+        
+        <br>
+        
+        <h2> <span id="q9_mark"></span> 9. What is the Lakers longest road winning streak? </h2>
+        <select id="q9">
+            <option value=""> Select One </option>
+            <option> 16 </option>
+            <option> 21 </option>
+            <option> 33 </option>
+            <option> 24 </option>
+        </select>
+        <div id="q9_feedback"></div>
 
-        <h2>  </h2>
-
-
-        <h2>  </h2>
-
-
-        <h2>  </h2>
-
+        <br>
+        
+        <h2> <span id="q10_mark"></span> 10. Which of the following numbers are retired by the Lakers? </h2>
+        <div class="center">
+            <input type="checkbox" name="q10" id="8"/><label for="8"> 8 </label> <br>
+            <input type="checkbox" name="q10" id="24"/><label for="24"> 24 </label> <br>
+            <input type="checkbox" name="q10" id="10"/><label for="10"> 10 </label> <br>
+            <input type="checkbox" name="q10" id="23"/><label for="23"> 23 </label> <br>
+            <input type="checkbox" name="q10" id="52"/><label for="52"> 52 </label> <br>
+        </div>
+        <div id="q10_feedback"></div>
+        
+        <br>
+        
         <button id="submitButton"> Submit </button>
         
         <h3 id="score"></h3>
