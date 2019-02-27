@@ -138,7 +138,6 @@ $("#submitButton").on("click", function(){
         $("#q10_mark").html("<img src='img/celtics.jpg' alt='checkmark'>");
     }
     
-    alert(total);
     if(total == 100){
         $("#score").html("Result:<br>You are a die hard Lakers fan, congrats on supporting the greatest franchise in the NBA.");
     }else if(total >= 80 && total < 100){
