@@ -3,7 +3,7 @@ $("#username1").on("change", function(){
     $.ajax({
 
         type: "GET",
-        url: "php/checkUsername_text.php",
+        url: "api/checkUsername_text.php",
         data: { 
             "username": $("#username1").val()
         },
@@ -21,7 +21,7 @@ $("#username2").on("change", function(){
     $.ajax({
 
         type: "GET",
-        url: "php/checkUsername_json.php",
+        url: "api/checkUsername_json.php",
         dataType: 'json',
         data: { 
             "username": $("#username2").val()
@@ -39,3 +39,22 @@ $("#username2").on("change", function(){
     
     });//ajax   
 }); // username1
+
+$("#password").on("change", function(){
+    $.ajax({
+
+        type: "GET",
+        url: "api/strongPasswordAPI.php",
+        // dataType: 'json',
+        data: { 
+            "password": $("#password").val()
+        },
+        success: function(data,status) {
+            $("#passwordError").html(data);
+        },
+        complete: function(data,status) { //optional, used for debugging purposes
+            //alert(status);
+        }
+    
+    });//ajax   
+}); // password

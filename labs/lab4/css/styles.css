@@ -1,3 +1,18 @@
 body {
     text-align: center;
 }
+
+.col-sm-4 {
+    margin: 0 auto; 
+    display:table;
+    text-align: left;
+}
+
+fieldset {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+legend {
+    text-align: left;
+}

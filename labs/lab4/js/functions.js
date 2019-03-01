@@ -11,10 +11,11 @@ $("#zipCode").on("change", function(){
             $("#city").html(data.city);
             $("#latitude").html(data.latitude);
             $("#longitude").html(data.longitude);
+             $("#noZipCode").html('');
         },
         complete: function(data,status) { //optional, used for debugging purposes
             if(status == "error"){
-                $("#noZipCode").html("zip code not found");
+                $("#noZipCode").html("Zip Code not found").css('color', 'red');
             }
         }
 
@@ -22,17 +23,25 @@ $("#zipCode").on("change", function(){
 }); //zipCode
 
 $("#submitBtn").on("click", function(){
+    let valid = true;
+    $("#passwordError").html('');
     if ($("#userName").val().length < 4){
-        $("#nameError").html("Incorrect username");
+        $("#nameError").html("Invalid username").css('color', 'red');
+        valid = false;
     }
     if($("#password").val().length < 6){
         $("#passwordError").html("Password needs to be at least 6 characters.");
+        valid = false;
     }
     if($("#confirmPassword").val() != $("#password").val()){
         $("#passwordError").html("Retype password");
+        valid = false;
     }
-});
-//ipoilliot@csumb.edu  ilona poilliot
+    if(valid){
+        alert("Sign up was successful");
+    }
+}); //submitBtn
+
 $("#userName").on("change", function() {
     $.ajax({
         type: "GET",
@@ -42,10 +51,10 @@ $("#userName").on("change", function() {
             "username": $("#userName").val(),
         },
         success: function(data,status) {
-            if (data.available == "true"){
-                $("#nameError").html("Valid Name").css("color", "green");
+            if (data.available == "false"){
+                $("#nameError").html("Invalid username").css("color", "red");
             }else{
-                $("#nameError").html("Invalid Name").css("color", "red");
+                $("#nameError").html("Valid username").css("color", "green");
             }
         },
         complete: function(data,status) { //optional, used for debugging purposes
@@ -53,7 +62,7 @@ $("#userName").on("change", function() {
         }
 
     });//ajax
-});
+}); // userName
 
 $("#state").on("change", function(){
     $.ajax({
