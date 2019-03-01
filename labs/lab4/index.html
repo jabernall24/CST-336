@@ -4,45 +4,58 @@
         <meta charset="utf-8"/>
         <title> Sign Up Page </title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
 
     </head>
     
     <body>
     <h1> Sign Up Form </h1>
-<div class="jumbotron">
         <fieldset>
             <legend>Sign Up</legend>
-            First Name: <input type="text"><br> 
-            Last Name: <input type="text"><br> 
-            Email: <input type="text"><br> 
-            Phone Number:<input type="text"><br><br>
-            Zip Code: <input type="text" id="zipCode"> <span id="noZipCode"></span><br>
-            City: <span id="city"></span>
-            <br>
-            Latitude: <span id="latitude"></span>
-            <br>
-            Longitude: <span id="longitude"></span>
-            <br><br>
-            State:
-            <select id="state">
-                <option> Select One </option>
-                <option value="ca"> California </option>
-                <option value="ny"> New York </option>
-                <option value="tx"> Texas </option>
-            </select>
-            
-            <br>
-            
-            Select a County: <select id="county"></select><br>
-            
-            Desired Username: <input id="userName" type="text"><span id="nameError"></span><br>
-            Password: <input id="password" type="password"> <span id="passwordError"></span><br>
-            Type Password Again: <input id="confirmPassword" type="password"><br>
-            <input id="submitBtn" type="submit" value="Sign up!">
+            <div class="row">
+                <div class="col-sm-4">
+                    First Name: <input type="text"><br> 
+                    Last Name: <input type="text"><br> 
+                    Email: <input type="text"><br> 
+                    Phone Number:<input type="text"><br><br>
+                 </div>  
+                   
+                
+                <div class="col-sm-4">
+                     Zip Code: <input type="text" id="zipCode"> <span id="noZipCode"></span><br>
+                    City: <span id="city"></span> <br>
+                Latitude: <span id="latitude"></span>
+                <br>
+                Longitude: <span id="longitude"></span>
+                <br><br>
+                
+                
+            </div>
+            <div class="col-sm-4">
+                State:
+                <select id="state">
+                    <option> Select One </option>
+                    <option value="ca"> California </option>
+                    <option value="ny"> New York </option>
+                    <option value="tx"> Texas </option>
+                </select>
+                <br>
+                
+                Select a County: <select id="county"></select><br>
+                
+                Desired Username: <input id="userName" type="text"><span id="nameError"></span><br>
+                Password: <input id="password" type="password"> <span id="passwordError"></span><br>
+                Type Password Again: <input id="confirmPassword" type="password"><br>
+                
+            </div>
+        </div>
+        <input id="submitBtn" class="btn btn-info" type="submit" value="Sign up!">
         </fieldset>
-    </div>
-        
+
         <script SRC="js/functions.js"></script>
     </body>
 </html>
