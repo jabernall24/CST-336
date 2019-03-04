@@ -31,7 +31,7 @@ function updateValues(value){
         
         success: function(data,status) {
             if(value == "comments"){
-                $("#comments").html('');
+                $("#theComments").html('');
                 for(let i = 0; i < data.length; i++){
                     $("#theComments").append(data[i]['author'] + ' ');
                     $("#theComments").append(data[i]['date'] + '<br>');
