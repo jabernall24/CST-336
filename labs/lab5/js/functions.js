@@ -40,21 +40,41 @@ $("#username2").on("change", function(){
     });//ajax   
 }); // username1
 
-$("#password").on("change", function(){
+$("#password").on("click", function(){
     $.ajax({
-
+        
         type: "GET",
         url: "api/strongPasswordAPI.php",
-        // dataType: 'json',
+        dataType: 'json',
         data: { 
-            "password": $("#password").val()
+            "length": 10
         },
         success: function(data,status) {
-            $("#passwordError").html(data);
+            $("#passwordError").html(data.suggestedPwd);
         },
         complete: function(data,status) { //optional, used for debugging purposes
             //alert(status);
         }
-    
+        
+    });//ajax   
+}); // password
+
+$("#password").on("change", function(){
+    $.ajax({
+        
+        type: "GET",
+        url: "api/validatePwd.php",
+        dataType: 'json',
+        data: { 
+            "password": $("#password").val(),
+            "username": $("#username1").val()
+        },
+        success: function(data,status) {
+            $("#passwordError").html(data.validPwd);
+        },
+        complete: function(data,status) { //optional, used for debugging purposes
+            //alert(status);
+        }
+        
     });//ajax   
 }); // password
