@@ -1,4 +1,6 @@
 
+var good = false;
+
 $("#username1").on("change", function(){
     $.ajax({
 
@@ -8,6 +10,11 @@ $("#username1").on("change", function(){
             "username": $("#username1").val()
         },
         success: function(data,status) {
+            if(data == "Available"){
+                good = true;
+            }else{
+                good = false;
+            }
             $("#username1Error").html(data);
         },
         complete: function(data,status) { //optional, used for debugging purposes
@@ -28,8 +35,10 @@ $("#username2").on("change", function(){
         },
         success: function(data,status) {
             if(data.available){
+                good = true;
                 $("#username2Error").html('Username is available').css('color', 'green');
             }else{
+                good = false;
                 $("#username2Error").html('Username is already TAKEN').css('color', 'red');
             }
         },
@@ -70,7 +79,13 @@ $("#password").on("change", function(){
             "username": $("#username1").val()
         },
         success: function(data,status) {
-            $("#passwordError").html(data.validPwd);
+            $("#passwordError").css('color', 'black');
+            if(!data.validPwd){
+                good = false;
+                $("#passwordError").html("Invalid Username").css('color', 'red');
+            }else{
+                good = true;
+            }
         },
         complete: function(data,status) { //optional, used for debugging purposes
             //alert(status);
@@ -78,3 +93,11 @@ $("#password").on("change", function(){
         
     });//ajax   
 }); // password
+
+$("#submit").on('click', function() {
+    if(good){
+        $("#submit").attr('class', 'btn btn-success');
+    }else{
+        $("#submit").attr('class', 'btn btn-danger');
+    }
+});

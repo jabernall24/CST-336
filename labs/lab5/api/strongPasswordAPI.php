@@ -1,9 +1,7 @@
 <?php
     // echo "topS3cr3t";
     
-    // $lettersArray = array("a", "b", "c", "d");
     $lettersArray = range("a", "z");
-    // print_r($lettersArray);
     $password = "";
     
     for($i = 0; $i < $_GET['length']; $i++){
