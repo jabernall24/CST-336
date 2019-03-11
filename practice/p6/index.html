@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> Practice 6: Web API/ Ajax </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="jumbotron">
+                <h1> Discount Shopping! </h1>
+            </div>
+        </div>
+        
+        
+        <table class="table-bordered">
+            <tr>
+                <td> Product </td>
+                <td> Unit Price </td>
+                <td> Quantity </td>
+                <td> Total </td>
+            </tr>
+            
+            <tr>
+                <td id="product"> </td>
+                <td id="unitPrice"></td>
+                <td id="quantity"> <input type="text" id="quantityInput"/></td>
+                <td id="total"></td>
+            </tr>
+            
+            <tr>
+                <td> Discount </td>
+                <td id="discountUnitPrice"> </td>
+                <td id="discountPercent"></td>
+                <td id="discountPrice"></td>
+            </tr>
+            
+            <tr>
+                <td>Subtotal</td>
+                <td></td>
+                <td></td>
+                <td id="subtotalTotal"></td>
+            </tr>
+            
+            <tr>
+                <td> Tax (10%)</td>
+                <td></td>
+                <td></td>
+                <td id="taxTotal"></td>
+            </tr>
+            
+            <tr>
+                <td>Total</td>
+                <td></td>
+                <td></td>
+                <td id="totalTotal"></td>
+            </tr>
+        </table>
+        <br>
+        Promo Code <input type="text" id="promoCode"> <br>
+        <span id="invalidCode"></span>
+        
+        <script SRC="js/functions.js"></script>
+    </body>
+</html>
