@@ -6,7 +6,8 @@ $.ajax({
     dataType: "json",
     success: function(data,status) {
         data.forEach(function(product){
-            $("#products").append(product.productName + " $" + product.productPrice + '<br>');
+            $("[name=category]").append('<option value=' + product['catId'] + '>'
+                                    +  product['catName'] + '</option>');
         });
     },
     complete: function(data,status) { //optional, used for debugging purposes

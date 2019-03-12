@@ -1,15 +1,11 @@
 <?php
 
-    $host = 'localhost';
-    $dbname = 'ottermart';
-    $username = 'root';
-    $password = '';
+    include "../dbConnection.php";
     
-    $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    $dbConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conn = getDatabaseConnection("ottermart");
     
-    $sql = "SELECT * FROM om_product ORDER BY productPrice LIMIT 10";
-    $stmt = $dbConn -> prepare($sql);  //$connection MUST be previously initialized
+    $sql = "SELECT catId, catName FROM om_category ORDER BY catName";
+    $stmt = $conn -> prepare($sql);  //$connection MUST be previously initialized
     $stmt->execute();
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC); //use fetch for one record, fetchAll for multiple
     
