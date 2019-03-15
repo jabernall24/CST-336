@@ -10,7 +10,7 @@
         <h1> OtterMart Product Search </h1>
         
         <form>
-            Product: <input type="text" name="product"/> 
+            Product: <input type="text" name="product" id="productName"/> 
             <br>
             
             Category 

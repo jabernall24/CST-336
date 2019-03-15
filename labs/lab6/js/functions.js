@@ -15,3 +15,22 @@ $.ajax({
     }
 
 });//ajax
+
+$("#searchForm").on('click', function(){
+    $.ajax({
+        type: "GET",
+        url: "api/getSearchResults.php",
+        dataType: "json",
+        data: {
+            "productName": $("#productName").val(),
+        },
+        success: function(data, success){
+            data.forEach(function(){
+                $("#products").html(data.productName);
+            })
+        },
+        complete: function(data, status){
+            // alert(status);
+        }
+    }); // ajax
+}); // searchForm
