@@ -23,6 +23,9 @@ $("#searchForm").on('click', function(){
         dataType: "json",
         data: {
             "productName": $("#productName").val(),
+            "productCategory": $("#category").val(),
+            "priceFrom": $("[name=priceFrom").val(),
+            "priceTo": $("[name=priceTo").val()
         },
         success: function(data, success){
             data.forEach(function(){
