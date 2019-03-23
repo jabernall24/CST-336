@@ -60,3 +60,29 @@ Stack trace:
 [23-Mar-2019 06:03:25 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst-336/dbConnection.php:3) in /home/ubuntu/workspace/cst-336/dbConnection.php on line 3
 [23-Mar-2019 06:03:25 UTC] PHP Stack trace:
 [23-Mar-2019 06:03:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getProducts.php:0
+[23-Mar-2019 06:04:36 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst-336/dbConnection.php:3) in /home/ubuntu/workspace/cst-336/dbConnection.php on line 3
+[23-Mar-2019 06:04:36 UTC] PHP Stack trace:
+[23-Mar-2019 06:04:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getProducts.php:0
+[23-Mar-2019 06:05:32 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst-336/dbConnection.php:3) in /home/ubuntu/workspace/cst-336/dbConnection.php on line 3
+[23-Mar-2019 06:05:32 UTC] PHP Stack trace:
+[23-Mar-2019 06:05:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getProducts.php:0
+[23-Mar-2019 06:48:43 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 13
+[23-Mar-2019 06:48:43 UTC] PHP Stack trace:
+[23-Mar-2019 06:48:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[23-Mar-2019 06:48:45 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 13
+[23-Mar-2019 06:48:45 UTC] PHP Stack trace:
+[23-Mar-2019 06:48:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[23-Mar-2019 06:51:02 UTC] PHP Warning:  print_r() expects parameter 2 to be boolean, array given in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 29
+[23-Mar-2019 06:51:02 UTC] PHP Stack trace:
+[23-Mar-2019 06:51:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[23-Mar-2019 06:51:02 UTC] PHP   2. print_r() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:29
+[23-Mar-2019 06:54:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 26
+[23-Mar-2019 06:56:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 28

@@ -23,14 +23,15 @@ $("#searchForm").on('click', function(){
         dataType: "json",
         data: {
             "productName": $("#productName").val(),
-            "productCategory": $("#category").val(),
+            "category": $("[name=category]").val(),
             "priceFrom": $("[name=priceFrom").val(),
             "priceTo": $("[name=priceTo").val()
         },
         success: function(data, success){
-            data.forEach(function(){
-                $("#products").html(data.productName);
-            })
+            $("products").html("");
+            data.forEach(function(product){
+                $("#products").append(product['productName']);
+            });
         },
         complete: function(data, status){
             // alert(status);
