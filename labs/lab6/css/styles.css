@@ -1,0 +1,29 @@
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    display: table;
+    text-align: left;
+}
+
+#searchForm {
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+}
+
+#products {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th, table {
+    border: 1px solid black;
+}
+
+th {
+    text-align: center;
+}

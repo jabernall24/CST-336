@@ -24,13 +24,19 @@ $("#searchForm").on('click', function(){
         data: {
             "productName": $("#productName").val(),
             "category": $("[name=category]").val(),
-            "priceFrom": $("[name=priceFrom").val(),
-            "priceTo": $("[name=priceTo").val()
+            "priceFrom": $("#priceFrom").val(),
+            "priceTo": $("#priceTo").val(),
+            "orderBy": $("[name=orderBy]:checked").val()
         },
         success: function(data, success){
-            $("products").html("");
+            $("#products").html("<th> Name </th><th> Description </th><th> Image </th><th> Price </th>");
             data.forEach(function(product){
-                $("#products").append(product['productName']);
+                $("#products").append("<tr>");
+                $("#products").append("<td>" + product['productName'] + "</td>");
+                $("#products").append("<td>" + product['productDescription'] + "</td>");
+                $("#products").append("<td>" + "<a href=" + product['productImage'] + ">image</a>");
+                $("#products").append("<td>" + "$" + product['productPrice'] + "</td>");
+                $("#products").append("</tr>");
             });
         },
         complete: function(data, status){
