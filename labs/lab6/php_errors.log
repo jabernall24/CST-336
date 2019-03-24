@@ -125,3 +125,56 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php(42): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 42
+[24-Mar-2019 02:35:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 47
+[24-Mar-2019 02:39:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 52
+[24-Mar-2019 02:43:42 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, array given in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 45
+[24-Mar-2019 02:43:42 UTC] PHP Stack trace:
+[24-Mar-2019 02:43:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:43:42 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:45
+[24-Mar-2019 02:43:55 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, array given in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 45
+[24-Mar-2019 02:43:55 UTC] PHP Stack trace:
+[24-Mar-2019 02:43:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:43:55 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:45
+[24-Mar-2019 02:43:55 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, array given in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 45
+[24-Mar-2019 02:43:55 UTC] PHP Stack trace:
+[24-Mar-2019 02:43:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:43:55 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:45
+[24-Mar-2019 02:44:49 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, array given in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 45
+[24-Mar-2019 02:44:49 UTC] PHP Stack trace:
+[24-Mar-2019 02:44:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:44:49 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:45
+[24-Mar-2019 02:44:49 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, array given in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 45
+[24-Mar-2019 02:44:49 UTC] PHP Stack trace:
+[24-Mar-2019 02:44:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:44:49 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:45
+[24-Mar-2019 02:44:50 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, array given in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 45
+[24-Mar-2019 02:44:50 UTC] PHP Stack trace:
+[24-Mar-2019 02:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:44:50 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:45
+[24-Mar-2019 02:46:07 UTC] PHP Fatal error:  Call to undefined method PDOStatement::fetchAl() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 42
+[24-Mar-2019 02:46:07 UTC] PHP Stack trace:
+[24-Mar-2019 02:46:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:46:08 UTC] PHP Fatal error:  Call to undefined method PDOStatement::fetchAl() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 42
+[24-Mar-2019 02:46:08 UTC] PHP Stack trace:
+[24-Mar-2019 02:46:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:46:09 UTC] PHP Fatal error:  Call to undefined method PDOStatement::fetchAl() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 42
+[24-Mar-2019 02:46:09 UTC] PHP Stack trace:
+[24-Mar-2019 02:46:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:46:22 UTC] PHP Fatal error:  Call to undefined method PDOStatement::fetchAl() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 42
+[24-Mar-2019 02:46:22 UTC] PHP Stack trace:
+[24-Mar-2019 02:46:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:46:23 UTC] PHP Fatal error:  Call to undefined method PDOStatement::fetchAl() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 42
+[24-Mar-2019 02:46:23 UTC] PHP Stack trace:
+[24-Mar-2019 02:46:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:46:36 UTC] PHP Fatal error:  Call to undefined method PDOStatement::fetchAl() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 42
+[24-Mar-2019 02:46:36 UTC] PHP Stack trace:
+[24-Mar-2019 02:46:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:46:36 UTC] PHP Fatal error:  Call to undefined method PDOStatement::fetchAl() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 42
+[24-Mar-2019 02:46:36 UTC] PHP Stack trace:
+[24-Mar-2019 02:46:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:46:37 UTC] PHP Fatal error:  Call to undefined method PDOStatement::fetchAl() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 42
+[24-Mar-2019 02:46:37 UTC] PHP Stack trace:
+[24-Mar-2019 02:46:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
+[24-Mar-2019 02:46:37 UTC] PHP Fatal error:  Call to undefined method PDOStatement::fetchAl() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 42
+[24-Mar-2019 02:46:37 UTC] PHP Stack trace:
+[24-Mar-2019 02:46:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php:0
