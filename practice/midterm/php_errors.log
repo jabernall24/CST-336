@@ -1,0 +1,32 @@
+[25-Mar-2019 19:35:19 UTC] PHP Fatal error:  Undefined class constant 'Fetch_ASSOC' in /home/ubuntu/workspace/cst-336/practice/midterm/api/getRandomProduct.php on line 10
+[25-Mar-2019 19:35:19 UTC] PHP Stack trace:
+[25-Mar-2019 19:35:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/practice/midterm/api/getRandomProduct.php:0
+[25-Mar-2019 19:36:13 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/cst-336/practice/midterm/api/getRandomProduct.php on line 12
+[25-Mar-2019 19:36:13 UTC] PHP Stack trace:
+[25-Mar-2019 19:36:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/practice/midterm/api/getRandomProduct.php:0
+[25-Mar-2019 19:36:13 UTC] PHP   2. rand() /home/ubuntu/workspace/cst-336/practice/midterm/api/getRandomProduct.php:12
+[25-Mar-2019 20:01:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mp_product WHERE productId = NULL' at line 1' in /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php(13): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php on line 13
+[25-Mar-2019 20:01:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mp_product WHERE productId = '1'' at line 1' in /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php(13): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php on line 13
+[25-Mar-2019 20:03:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mp_product WHERE productId LIKE '1'' at line 1' in /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php(13): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php on line 13
+[25-Mar-2019 20:04:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mp_product WHERE productId LIKE '%1%'' at line 1' in /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php(13): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php on line 13
+[25-Mar-2019 20:05:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mp_product WHERE productId = '%1%'' at line 1' in /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php(13): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/practice/midterm/api/getAProduct.php on line 13

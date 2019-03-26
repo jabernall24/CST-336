@@ -17,8 +17,6 @@ $.ajax({
 });//ajax
 
 $("#searchForm").on('click', function(){
-    // alert($("#priceFrom").val());
-    // alert($("#priceTo").val());
     $.ajax({
         type: "GET",
         url: "api/getSearchResults.php",

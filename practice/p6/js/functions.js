@@ -1,22 +1,22 @@
 let total = 0;
 
- $.ajax({
-        
-        type: "GET",
-        url: "api/getRandomProduct.php",
-        dataType: 'json',
-        success: function(data,status) {
-            $("#product").html(data.product);
-            $("#unitPrice").html(data.price);
-            $("#quantityInput").val(data.qty);
-            total = data.price * data.qty;
-            $("#total").html("$" + total);
-        },
-        complete: function(data,status) { //optional, used for debugging purposes
-            //alert(status);
-        }
-        
-    });//ajax   
+$.ajax({
+    
+    type: "GET",
+    url: "api/getRandomProduct.php",
+    dataType: 'json',
+    success: function(data,status) {
+        $("#product").html(data.product);
+        $("#unitPrice").html(data.price);
+        $("#quantityInput").val(data.qty);
+        total = data.price * data.qty;
+        $("#total").html("$" + total);
+    },
+    complete: function(data,status) { //optional, used for debugging purposes
+        //alert(status);
+    }
+    
+});//ajax   
 
 $("#promoCode").on("change", function(){
     $.ajax({

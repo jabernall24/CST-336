@@ -20,26 +20,33 @@
     }
     
     if(!empty($category)) {
-        $sql .= "AND catId LIKE :categoryId ";
-        $namedParameters[":categoryId"] = "%$category%";
+        if($category == 6){
+            $sql .= "AND catId = 6 ";
+        }else {
+            $sql .= "AND catId LIKE :categoryId ";
+            $namedParameters[":categoryId"] = "$category";
+        }
     }
     
     if(!empty($priceFrom) && !empty($priceTo)) {
         $sql .= "AND productPrice BETWEEN :lower AND :upper ";
-        $namedParameters[":lower"] = "%$priceFrom%";
-        $namedParameters[":upper"] = "%$priceTo%";
+        $namedParameters[":lower"] = "$priceFrom";
+        $namedParameters[":upper"] = "$priceTo";
     }
     
-    if(!empty($orderBy)) {
-        $sql .= "ORDER BY :orderBy ";
-        $namedParameters[":orderBy"] = "%$orderBy%";
+    if($orderBy == "productPrice") {
+        // print_r($orderBy);
+        $sql .= "ORDER BY productPrice ";
+        // $namedParameters[":orderBy"] = "$orderBy";
+    }else if($orderBy == "productName"){
+        // print_r($orderBy);
+        $sql .= "ORDER BY productName ";
     }
-    
+   
     $sql .= "LIMIT 10";
-    
     $stmt = $conn -> prepare($sql);  //$connection MUST be previously initialized
     $stmt->execute($namedParameters);
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC); //use fetch for one record, fetchAll for multiple
-    
+
     echo json_encode($records);
 ?>
