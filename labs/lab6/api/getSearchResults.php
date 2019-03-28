@@ -9,7 +9,7 @@
     $priceTo = $_GET['priceTo'];
     $orderBy = $_GET['orderBy'];
     $namedParameters = array();
-
+    
     // Works but allows SQL injection (because it is using single quotes)
     // $sql = "SELECT * FROM om_product WHERE productName LIKE '%$product%'";
     $sql = "SELECT * FROM om_product WHERE 1 "; // retrieves all records
@@ -25,9 +25,13 @@
         $namedParameters[":categoryId"] = $category;
     }
     
-    if(!empty($priceFrom) && !empty($priceTo)) {
-        $sql .= "AND productPrice BETWEEN :lower AND :upper ";
+    if(!empty($priceFrom)){
+        $sql .= "AND productPrice >= :lower ";
         $namedParameters[":lower"] = $priceFrom;
+    } 
+    
+    if(!empty($priceTo)) {
+        $sql .= "AND productPrice <= :upper ";
         $namedParameters[":upper"] = $priceTo;
     }
     
@@ -38,8 +42,11 @@
         $sql .= "ORDER BY productName ";
     }
     
-   // If I put limit >= 30 or no limit at all the query does not work
-    $sql .= "LIMIT 29;";
+    // If I put limit >= 30 or no limit at all the query does not work
+    // If I put limit >= 19 productPrice by itself won't work
+    // If I put limit >= 9 productName by itself won't work
+    // If I put limit >= 18 priceTo will not work
+    $sql .= "LIMIT 17;";
 
     $stmt = $conn -> prepare($sql);  //$connection MUST be previously initialized
     $stmt->execute($namedParameters);
