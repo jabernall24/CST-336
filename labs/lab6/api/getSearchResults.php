@@ -15,35 +15,32 @@
     $sql = "SELECT * FROM om_product WHERE 1 "; // retrieves all records
 
     if(!empty($product)) {
-        $sql .= "AND productName LIKE :products ";
+        $sql .= "AND (productName LIKE :products OR productDescription LIKE :products) ";
         $namedParameters[":products"] = "%$product%";
     }
     
     if(!empty($category)) {
-        if($category == 6){
-            $sql .= "AND catId = 6 ";
-        }else {
-            $sql .= "AND catId LIKE :categoryId ";
-            $namedParameters[":categoryId"] = "$category";
-        }
+        // catId 6 for some reason does not wokr
+        $sql .= "AND catId = :categoryId ";
+        $namedParameters[":categoryId"] = $category;
     }
     
     if(!empty($priceFrom) && !empty($priceTo)) {
         $sql .= "AND productPrice BETWEEN :lower AND :upper ";
-        $namedParameters[":lower"] = "$priceFrom";
-        $namedParameters[":upper"] = "$priceTo";
+        $namedParameters[":lower"] = $priceFrom;
+        $namedParameters[":upper"] = $priceTo;
     }
     
     if($orderBy == "productPrice") {
-        // print_r($orderBy);
         $sql .= "ORDER BY productPrice ";
-        // $namedParameters[":orderBy"] = "$orderBy";
     }else if($orderBy == "productName"){
-        // print_r($orderBy);
+        // this will only work combined with other parameters
         $sql .= "ORDER BY productName ";
     }
-   
-    $sql .= "LIMIT 10";
+    
+   // If I put limit >= 30 or no limit at all the query does not work
+    $sql .= "LIMIT 29;";
+
     $stmt = $conn -> prepare($sql);  //$connection MUST be previously initialized
     $stmt->execute($namedParameters);
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC); //use fetch for one record, fetchAll for multiple
