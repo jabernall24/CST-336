@@ -377,3 +377,5 @@
 [27-Mar-2019 21:51:43 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/cst-336/hw/hw3/api/starters.php on line 10
 [27-Mar-2019 21:51:43 UTC] PHP Stack trace:
 [27-Mar-2019 21:51:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/hw/hw3/api/starters.php:0
+[28-Mar-2019 08:39:18 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/cst-336/hw/hw3/api/starters.php on line 11
+[28-Mar-2019 08:39:20 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/cst-336/hw/hw3/api/starters.php on line 11

@@ -3,7 +3,7 @@
     $userInput = $_GET['text'];
     
     $teams = array("lakers", "celtics", "warriors", "bulls", "spurs", "76ers", "pistons", 
-    "heat", "knicks", "rockets","cavaliers", "hawks", "wizards", "thunder", "blazers", 
+    "heat", "knicks", "rockets","cavaliers", "hawks", "wizards", "thunder", "trail blazers", 
     "bucks", "mavericks", "kings", "suns", "jazz", "nets", "magic", "pacers", "clippers",
     "hornets", "nuggets", "timberwolves", "pelicans", "raptors", "grizzlies");
     $matchingTeams = array();

@@ -1,3 +1,4 @@
+
 $.ajax({
         type: "GET",
         url: "api/teams.php",
@@ -37,7 +38,6 @@ $("[name=userInput]").on('keyup', function(){
 });
 
 $("[name=teams]").on('change', function() {
-    // alert($("[name=teams]").val())
     $.ajax({
         type: "GET",
         url: "api/starters.php",
@@ -46,11 +46,13 @@ $("[name=teams]").on('change', function() {
             "team": $("[name=teams]").val()
         },
         success: function(data,status) {
-            alert(data);
+            $("#starters").html("");
+            data.forEach(function(player){
+                $("#starters").append(player + "<br>");
+            });
         },
         complete: function(data,status) { //optional, used for debugging purposes
             // alert(status);
         }
-
     });//ajax
 })
