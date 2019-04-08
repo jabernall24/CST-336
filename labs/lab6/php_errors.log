@@ -1005,3 +1005,228 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php(54): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst-336/labs/lab6/api/getSearchResults.php on line 54
+[04-Apr-2019 23:58:11 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[04-Apr-2019 23:58:11 UTC] PHP Stack trace:
+[04-Apr-2019 23:58:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[04-Apr-2019 23:58:11 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[04-Apr-2019 23:58:11 UTC] PHP Stack trace:
+[04-Apr-2019 23:58:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[04-Apr-2019 23:58:11 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[04-Apr-2019 23:58:11 UTC] PHP Stack trace:
+[04-Apr-2019 23:58:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[04-Apr-2019 23:58:13 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[04-Apr-2019 23:58:13 UTC] PHP Stack trace:
+[04-Apr-2019 23:58:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[04-Apr-2019 23:58:13 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[04-Apr-2019 23:58:13 UTC] PHP Stack trace:
+[04-Apr-2019 23:58:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[04-Apr-2019 23:58:13 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[04-Apr-2019 23:58:13 UTC] PHP Stack trace:
+[04-Apr-2019 23:58:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[04-Apr-2019 23:58:47 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[04-Apr-2019 23:58:47 UTC] PHP Stack trace:
+[04-Apr-2019 23:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[04-Apr-2019 23:58:47 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[04-Apr-2019 23:58:47 UTC] PHP Stack trace:
+[04-Apr-2019 23:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[04-Apr-2019 23:58:47 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[04-Apr-2019 23:58:47 UTC] PHP Stack trace:
+[04-Apr-2019 23:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[04-Apr-2019 23:59:03 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[04-Apr-2019 23:59:03 UTC] PHP Stack trace:
+[04-Apr-2019 23:59:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[04-Apr-2019 23:59:03 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[04-Apr-2019 23:59:03 UTC] PHP Stack trace:
+[04-Apr-2019 23:59:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[04-Apr-2019 23:59:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[04-Apr-2019 23:59:03 UTC] PHP Stack trace:
+[04-Apr-2019 23:59:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:00:33 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:00:33 UTC] PHP Stack trace:
+[05-Apr-2019 00:00:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:00:33 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:00:33 UTC] PHP Stack trace:
+[05-Apr-2019 00:00:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:00:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:00:33 UTC] PHP Stack trace:
+[05-Apr-2019 00:00:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:02:45 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:02:45 UTC] PHP Stack trace:
+[05-Apr-2019 00:02:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:02:45 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:02:45 UTC] PHP Stack trace:
+[05-Apr-2019 00:02:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:02:45 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:02:45 UTC] PHP Stack trace:
+[05-Apr-2019 00:02:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:05:02 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:05:02 UTC] PHP Stack trace:
+[05-Apr-2019 00:05:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:05:02 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:05:02 UTC] PHP Stack trace:
+[05-Apr-2019 00:05:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:05:02 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:05:02 UTC] PHP Stack trace:
+[05-Apr-2019 00:05:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:05:15 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:05:15 UTC] PHP Stack trace:
+[05-Apr-2019 00:05:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:05:15 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:05:15 UTC] PHP Stack trace:
+[05-Apr-2019 00:05:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:05:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:05:15 UTC] PHP Stack trace:
+[05-Apr-2019 00:05:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:05:25 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:05:25 UTC] PHP Stack trace:
+[05-Apr-2019 00:05:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:05:25 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:05:25 UTC] PHP Stack trace:
+[05-Apr-2019 00:05:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:05:25 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:05:25 UTC] PHP Stack trace:
+[05-Apr-2019 00:05:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:05:47 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:05:47 UTC] PHP Stack trace:
+[05-Apr-2019 00:05:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:05:47 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:05:47 UTC] PHP Stack trace:
+[05-Apr-2019 00:05:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:05:47 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:05:47 UTC] PHP Stack trace:
+[05-Apr-2019 00:05:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:06:40 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:06:40 UTC] PHP Stack trace:
+[05-Apr-2019 00:06:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:06:40 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:06:40 UTC] PHP Stack trace:
+[05-Apr-2019 00:06:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:06:40 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:06:40 UTC] PHP Stack trace:
+[05-Apr-2019 00:06:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:09:35 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:09:35 UTC] PHP Stack trace:
+[05-Apr-2019 00:09:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:09:35 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:09:35 UTC] PHP Stack trace:
+[05-Apr-2019 00:09:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:09:35 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:09:35 UTC] PHP Stack trace:
+[05-Apr-2019 00:09:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:09:45 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:09:45 UTC] PHP Stack trace:
+[05-Apr-2019 00:09:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:09:45 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:09:45 UTC] PHP Stack trace:
+[05-Apr-2019 00:09:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:09:45 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:09:45 UTC] PHP Stack trace:
+[05-Apr-2019 00:09:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:09:54 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:09:54 UTC] PHP Stack trace:
+[05-Apr-2019 00:09:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:09:54 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:09:54 UTC] PHP Stack trace:
+[05-Apr-2019 00:09:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:09:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:09:54 UTC] PHP Stack trace:
+[05-Apr-2019 00:09:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:10:19 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:10:19 UTC] PHP Stack trace:
+[05-Apr-2019 00:10:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:10:19 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:10:19 UTC] PHP Stack trace:
+[05-Apr-2019 00:10:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:10:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:10:19 UTC] PHP Stack trace:
+[05-Apr-2019 00:10:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:12:51 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:12:51 UTC] PHP Stack trace:
+[05-Apr-2019 00:12:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:12:51 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:12:51 UTC] PHP Stack trace:
+[05-Apr-2019 00:12:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:12:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:12:51 UTC] PHP Stack trace:
+[05-Apr-2019 00:12:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:14:28 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:14:28 UTC] PHP Stack trace:
+[05-Apr-2019 00:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:14:28 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:14:28 UTC] PHP Stack trace:
+[05-Apr-2019 00:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:14:28 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:14:28 UTC] PHP Stack trace:
+[05-Apr-2019 00:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:15:31 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:15:31 UTC] PHP Stack trace:
+[05-Apr-2019 00:15:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:15:31 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:15:31 UTC] PHP Stack trace:
+[05-Apr-2019 00:15:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:15:31 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:15:31 UTC] PHP Stack trace:
+[05-Apr-2019 00:15:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:15:32 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:15:32 UTC] PHP Stack trace:
+[05-Apr-2019 00:15:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:15:32 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:15:32 UTC] PHP Stack trace:
+[05-Apr-2019 00:15:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:15:32 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:15:32 UTC] PHP Stack trace:
+[05-Apr-2019 00:15:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:15:40 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:15:40 UTC] PHP Stack trace:
+[05-Apr-2019 00:15:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:15:40 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:15:40 UTC] PHP Stack trace:
+[05-Apr-2019 00:15:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:15:40 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:15:40 UTC] PHP Stack trace:
+[05-Apr-2019 00:15:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:17:42 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:17:42 UTC] PHP Stack trace:
+[05-Apr-2019 00:17:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:17:42 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:17:42 UTC] PHP Stack trace:
+[05-Apr-2019 00:17:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:17:42 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:17:42 UTC] PHP Stack trace:
+[05-Apr-2019 00:17:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:17:57 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:17:57 UTC] PHP Stack trace:
+[05-Apr-2019 00:17:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:17:57 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:17:57 UTC] PHP Stack trace:
+[05-Apr-2019 00:17:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:17:57 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:17:57 UTC] PHP Stack trace:
+[05-Apr-2019 00:17:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:23:00 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:23:00 UTC] PHP Stack trace:
+[05-Apr-2019 00:23:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:23:00 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:23:00 UTC] PHP Stack trace:
+[05-Apr-2019 00:23:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:23:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:23:00 UTC] PHP Stack trace:
+[05-Apr-2019 00:23:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:26:04 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:26:04 UTC] PHP Stack trace:
+[05-Apr-2019 00:26:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:26:04 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:26:04 UTC] PHP Stack trace:
+[05-Apr-2019 00:26:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:26:04 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:26:04 UTC] PHP Stack trace:
+[05-Apr-2019 00:26:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:26:57 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:26:57 UTC] PHP Stack trace:
+[05-Apr-2019 00:26:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:26:57 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 3
+[05-Apr-2019 00:26:57 UTC] PHP Stack trace:
+[05-Apr-2019 00:26:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0
+[05-Apr-2019 00:26:57 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php on line 4
+[05-Apr-2019 00:26:57 UTC] PHP Stack trace:
+[05-Apr-2019 00:26:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab6/api/getCategories.php:0

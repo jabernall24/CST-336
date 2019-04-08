@@ -6,10 +6,13 @@
     
     $username = $_POST['username'];
     $password = sha1($_POST['password']);
+    $nm = array();
 
-    $sql = "SELECT * FROM om_admin WHERE username = '$username' AND password = '$password'";
+    $sql = "SELECT * FROM om_admin WHERE username = :username AND password = :password";
+    $nm[':username'] = $username;
+    $nm[':password'] = $password;
     $stmt = $conn->prepare($sql);
-    $stmt->execute();
+    $stmt->execute($nm);
     $record = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if(empty($record)) {

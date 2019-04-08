@@ -1,5 +1,11 @@
 <?php
     session_start();
+    
+    // checks wether user has logged in
+    
+    if(!isset($_SESSION['adminName'])) {
+        header('location: login.html');
+    }
 ?>
 <!DOCTYPE html>
 <html>
@@ -13,8 +19,18 @@
         
         Welcome <?=$_SESSION['adminName']?>
         
-        <select name='category'></select>
+        <br><br><br>
         
-        <script SRC='js/functions.js'></script>
+        <form action="addProducts.php">
+            <button> Add New Product </button>
+        </form>
+        
+        <form action="logout.php">
+            <button> Logout </button>
+        </form>
+        
+        <div id="products"></div>
+        
+        <script SRC='js/admin.js'></script>
     </body>
 </html>
