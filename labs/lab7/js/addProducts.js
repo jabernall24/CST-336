@@ -1,7 +1,7 @@
         
 $.ajax({
     type: "GET",
-    url: "../lab6/api/getProducts.php",
+    url: "../lab6/api/getCategories.php",
     dataType: "json",
     success: function(data,status) {
         data.forEach(function(product){

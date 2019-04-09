@@ -21,59 +21,59 @@
         
         <script>
             
-    $.ajax({
-        type: "GET",
-        url: "../lab6/api/getCategories.php",
-        dataType: "json",
-        success: function(data,status) {
-            data.forEach(function(product){
-                $("#catId").append("<option value='" + product['catId'] + "'>" + product["catName"] + "</option>");
-            });
-        },
-        complete: function(data,status) { //optional, used for debugging purposes
-            // alert(status);
-        }
-    });//ajax
+            $.ajax({
+                type: "GET",
+                url: "../lab6/api/getCategories.php",
+                dataType: "json",
+                success: function(data,status) {
+                    data.forEach(function(product){
+                        $("#catId").append("<option value='" + product['catId'] + "'>" + product["catName"] + "</option>");
+                    });
+                },
+                complete: function(data,status) { //optional, used for debugging purposes
+                    // alert(status);
+                }
+            });//ajax
 
-    $.ajax({
-        type: "GET",
-        url: "api/getProductInfo.php",
-        dataType: "json",
-        data: {
-          "productId": <?=$_GET['productId'] ?>
-        },
-        success: function(data,status) {
-            $("#productName").val(data.productName);
-            $("#productDescription").val(data.productDescription);
-            $("#productPrice").val(data.productPrice);
-            $("#productImage").val(data.productImage);
-            $("#catId").val(data.catId).change();
-        },
-        complete: function(data,status) { //optional, used for debugging purposes
-            // alert(status);
-        }
-    });//ajax
+            $.ajax({
+                type: "GET",
+                url: "api/getProductInfo.php",
+                dataType: "json",
+                data: {
+                  "productId": <?=$_GET['productId'] ?>
+                },
+                success: function(data,status) {
+                    $("#productName").val(data.productName);
+                    $("#productDescription").val(data.productDescription);
+                    $("#productPrice").val(data.productPrice);
+                    $("#productImage").val(data.productImage);
+                    $("#catId").val(data.catId).change();
+                },
+                complete: function(data,status) { //optional, used for debugging purposes
+                    // alert(status);
+                }
+            });//ajax
     
-    $("#updateProduct").on('click', function(){
-        $.ajax({
-        type: "GET",
-        url: "api/getProductInfo.php",
-        dataType: "json",
-        data: {
-          "productId": <?=$_GET['productId'] ?>
-        },
-        success: function(data,status) {
-            $("#productName").val(data.productName);
-            $("#productDescription").val(data.productDescription);
-            $("#productPrice").val(data.productPrice);
-            $("#productImage").val(data.productImage);
-            $("#catId").val(data.catId).change();
-        },
-        complete: function(data,status) { //optional, used for debugging purposes
-            // alert(status);
-        }
-    });//ajax
-    });
+            $("#updateProduct").on('click', function(){
+                $.ajax({
+                    type: "GET",
+                    url: "api/getProductInfo.php",
+                    dataType: "json",
+                    data: {
+                      "productId": <?=$_GET['productId'] ?>
+                    },
+                    success: function(data,status) {
+                        $("#productName").val(data.productName);
+                        $("#productDescription").val(data.productDescription);
+                        $("#productPrice").val(data.productPrice);
+                        $("#productImage").val(data.productImage);
+                        $("#catId").val(data.catId).change();
+                    },
+                    complete: function(data,status) { //optional, used for debugging purposes
+                        // alert(status);
+                    }
+                });//ajax
+            });
         </script>
     </body>
 </html>

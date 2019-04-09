@@ -9,9 +9,9 @@ $.ajax({
             $("#products").append("<div class='row'>" + 
                                                 "<div class='col1'>" + 
                                                 "[<a href='update.php?productId=" + product.productID + "'> Update </a>]" +
-                                                "[<a href='delete.php'> Delete </a>]" +
-                                                product.productName + "</div>"+
-                                                "<div class='col2'>"+"$" + product.productPrice + "</div>"+
+                                                "[<a href='delete.php'> Delete </a>] </div>"+
+                                                "<div class='col2'>" + "Name: " + product.productName + "</div>"+
+                                                "<div class='col3'>"+ "Price: $" + product.productPrice + "</div>"+
                                                 "</div>");
         });
     },
