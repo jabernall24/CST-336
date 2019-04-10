@@ -8,3 +8,58 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst-336/labs/lab7/api/getProductInfo.php(11): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/cst-336/labs/lab7/api/getProductInfo.php on line 11
+[10-Apr-2019 00:05:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productName' cannot be null' in /home/ubuntu/workspace/cst-336/labs/lab7/api/addProductAPI.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab7/api/addProductAPI.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab7/api/addProductAPI.php on line 22
+[10-Apr-2019 00:05:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst-336/labs/lab7/api/getProductInfo.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab7/api/getProductInfo.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab7/api/getProductInfo.php on line 11
+[10-Apr-2019 00:18:53 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:18:53 UTC] PHP Stack trace:
+[10-Apr-2019 00:18:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:19:46 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:19:46 UTC] PHP Stack trace:
+[10-Apr-2019 00:19:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:19:56 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:19:56 UTC] PHP Stack trace:
+[10-Apr-2019 00:19:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:20:04 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:20:04 UTC] PHP Stack trace:
+[10-Apr-2019 00:20:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:20:35 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:20:35 UTC] PHP Stack trace:
+[10-Apr-2019 00:20:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:24:06 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:24:06 UTC] PHP Stack trace:
+[10-Apr-2019 00:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:25:08 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:25:08 UTC] PHP Stack trace:
+[10-Apr-2019 00:25:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:25:13 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:25:13 UTC] PHP Stack trace:
+[10-Apr-2019 00:25:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:25:44 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:25:44 UTC] PHP Stack trace:
+[10-Apr-2019 00:25:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:28:11 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:28:11 UTC] PHP Stack trace:
+[10-Apr-2019 00:28:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:28:21 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:28:21 UTC] PHP Stack trace:
+[10-Apr-2019 00:28:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:28:36 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:28:36 UTC] PHP Stack trace:
+[10-Apr-2019 00:28:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:29:39 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:29:39 UTC] PHP Stack trace:
+[10-Apr-2019 00:29:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:29:55 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:29:55 UTC] PHP Stack trace:
+[10-Apr-2019 00:29:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0
+[10-Apr-2019 00:29:57 UTC] PHP Fatal error:  Call to undefined function getDatabase() in /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php on line 9
+[10-Apr-2019 00:29:57 UTC] PHP Stack trace:
+[10-Apr-2019 00:29:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab7/api/updateProduct.php:0

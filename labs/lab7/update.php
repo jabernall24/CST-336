@@ -2,6 +2,7 @@
 <html>
     <head>
         <title> </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <h1> Update Product </h1>
@@ -17,8 +18,8 @@
         <br>
         
         <button id="updateProduct"> Update Product </button>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        
+        <br>
+        <span id="message"></span>
         <script>
             
             $.ajax({
@@ -29,32 +30,14 @@
                     data.forEach(function(product){
                         $("#catId").append("<option value='" + product['catId'] + "'>" + product["catName"] + "</option>");
                     });
+                    getProductInfo();
                 },
                 complete: function(data,status) { //optional, used for debugging purposes
                     // alert(status);
                 }
             });//ajax
-
-            $.ajax({
-                type: "GET",
-                url: "api/getProductInfo.php",
-                dataType: "json",
-                data: {
-                  "productId": <?=$_GET['productId'] ?>
-                },
-                success: function(data,status) {
-                    $("#productName").val(data.productName);
-                    $("#productDescription").val(data.productDescription);
-                    $("#productPrice").val(data.productPrice);
-                    $("#productImage").val(data.productImage);
-                    $("#catId").val(data.catId).change();
-                },
-                complete: function(data,status) { //optional, used for debugging purposes
-                    // alert(status);
-                }
-            });//ajax
-    
-            $("#updateProduct").on('click', function(){
+            
+            function getProductInfo() {
                 $.ajax({
                     type: "GET",
                     url: "api/getProductInfo.php",
@@ -68,6 +51,28 @@
                         $("#productPrice").val(data.productPrice);
                         $("#productImage").val(data.productImage);
                         $("#catId").val(data.catId).change();
+                    },
+                    complete: function(data,status) { //optional, used for debugging purposes
+                        // alert(status);
+                    }
+                });//ajax
+            }
+            
+    
+            $("#updateProduct").on('click', function(){
+                $.ajax({
+                    type: "GET",
+                    url: "api/updateProduct.php",
+                    data: {
+                        "productName": $("#productName").val(),
+                        "productDescription": $("#productDescription").val(),
+                        "productImage": $("#productImage").val(),
+                        "productPrice": $("#productPrice").val(),
+                        "catId": $("#catId").val(),
+                        "productId": <?=$_GET['productId'] ?>
+                    },
+                    success: function(data,status) {
+                        $("#message").html("Product was updated succesfully");
                     },
                     complete: function(data,status) { //optional, used for debugging purposes
                         // alert(status);
