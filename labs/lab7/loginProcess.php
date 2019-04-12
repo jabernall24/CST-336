@@ -16,7 +16,7 @@
     $record = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if(empty($record)) {
-        echo "Username or password are incorrect";
+        header('location: login.php?error=Error: Incorrect username or password');
     }else {
         header('location: admin.php'); // redirecting to new file
         

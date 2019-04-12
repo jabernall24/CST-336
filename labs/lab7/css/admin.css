@@ -1,0 +1,15 @@
+.row  { 
+    display:flex; 
+}
+        
+.col1 { 
+    width:350px; 
+}
+            
+form { 
+    display: inline-block; 
+}
+            
+#products {
+    margin: 35px;
+}
