@@ -18,24 +18,15 @@
   $err = curl_error($curl);
   curl_close($curl);
   
-  //echo $jsonData;
-  
   $data = json_decode($jsonData, true);  //from JSON format to an Array
-  
-  //print_r($data);
   
   $imageURLs = array();
   
   for ($i = 0; $i < 50; $i++) {
-  
     $imageURLs[] = $data["hits"][$i]["webformatURL"];
-    
   }
   
   shuffle($imageURLs);
   
   echo json_encode(array_slice($imageURLs, 0, 9)); 
-  
-  //print_r($imageURLs);
-
 ?>

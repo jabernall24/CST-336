@@ -1,0 +1,13 @@
+
+#textToDetect {
+    width: 50%;
+    height: 100px;
+}
+
+table {
+  max-width: 100%;
+}
+
+td { 
+    word-break: break-word;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Detect Language </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    </head>
+    <body>
+        
+        <h1> Detect Language </h1>
+        
+        <textarea placeholder='Enter text to detect language' id='textToDetect' ></textarea> <br/>
+        
+        <button id="detectButton"> Detect </button>
+
+        <br/> <br/>
+        
+        <strong> Language: </strong> <span id="language"></span> <br/> <br/> <br/>
+        
+        <strong> Filter: </strong> 
+        <select name="languageFilter">
+            <option>Recent</option>
+        </select>
+        <br/>
+        
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th> # </th>
+                    <th> Text </th>
+                    <th> Language </th>
+                    <th> Confidence </th>
+                </tr>
+            </thead>
+            <tbody id="history">
+                <tr>
+                    <td> 1 </td>
+                    <td> Que lenguage es este en el que estoy escribiendo </td>
+                    <td> Espanol(es) </td>
+                    <td> 30 </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <script type="text/javascript" src="js/index.js"></script>
+
+    </body>
+</html>
