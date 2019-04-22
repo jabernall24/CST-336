@@ -34,10 +34,10 @@
 
     <script>
     
-    if(<?= $_SESSION['submitted']?>) {
-        grabData();
-        $("#q1").hide();
-    }
+    // if(<?= $_SESSION['submitted']?>) {
+    //     grabData();
+    //     $("#q1").hide();
+    // }
     
     $("#q1").on('click', function() {
         if($("input[name=q1]:checked").val() == null) {
