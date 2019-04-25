@@ -56,11 +56,10 @@ function callFavoriteAPI(action, url, keyword) {
             "url": url
         },
          success: function(data, status) {
-            
+            // alert(data[0]);
+        },
+        complete: function(data,status) { //optional, used for debugging purposes
+            // alert(status);
         }
     }); //ajax 
 }
-
-$("#favoriteButton").on('click', function() {
-    callFavoriteAPI("clickFavorite", null, null);
-});

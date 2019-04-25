@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+#keywords {
+    text-align: center;
+}
+
+.image {
+    padding: 10px;
+}
+
+#favoriteImages {
+    margin: auto;
+    text-align: center;
+}

@@ -31,12 +31,21 @@
             }
             $sql = "DELETE FROM lab8_pixabay WHERE lab8_pixabay.imageURL = :url;";
             break;
-        case "clickFavorite":
-            
+        case "keyword":
+            $sql = "SELECT DISTINCT keyword FROM lab8_pixabay;";
+            break;    
+        case "favorites":
+            $sql = "SELECT * FROM lab8_pixabay WHERE lab8_pixabay.keyword = :keyword;";
+            $nm[":keyword"] = $keyword;
             break;
+        default:
+            exit();
     }
     
+    // print_r($sql);
     $stmt = $conn->prepare($sql);
     $stmt->execute($nm);
+    $record = $stmt->fetchAll(PDO::FETCH_ASSOC);
     
+    echo json_encode($record);
 ?>
