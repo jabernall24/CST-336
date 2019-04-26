@@ -14,7 +14,7 @@
         
         <div class="jumbotron">
             <form action="index.html">
-                <button> Go back </button>
+                <button class="btn btn-danger"> Go back </button>
             </form>
             <h1>Favorites</h1>
             <div id="keywords"></div>

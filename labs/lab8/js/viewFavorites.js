@@ -7,9 +7,9 @@ $.ajax({
         "action": "keyword"
     },
      success: function(data, status) {
-        $("#keywords").html("| ");
+        $("#keywords").html("");
         data.forEach(function(keyword) {
-            $("#keywords").append("<a href='#' class='test'>" + keyword.keyword + "</a> | ");
+            $("#keywords").append("<button class='btn btn-primary btn-xs'>" +keyword.keyword+ "</button> ")
         })
     },
     complete: function(data,status) { //optional, used for debugging purposes
@@ -17,7 +17,7 @@ $.ajax({
     }
 }); //ajax 
 
-$(document).on('click', '.test',function() {
+$(document).on('click', '.btn-xs',function() {
     let keyword = $(this).html();
     $.ajax({
     type: "GET",

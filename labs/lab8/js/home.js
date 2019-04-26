@@ -13,6 +13,7 @@ function searchImage() {
             let htmlString = "";
             let i = 0;
             $("#images").html("");
+            
             for (let rows=0; rows < 3; rows++) {
                 htmlString += "<div class='row'>";
                 

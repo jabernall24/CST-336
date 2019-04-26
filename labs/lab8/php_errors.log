@@ -509,3 +509,53 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php(48): PDOStatement->fetchAll(2)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php on line 48
+[26-Apr-2019 00:17:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php(47): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php on line 47
+[26-Apr-2019 00:17:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php(47): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php on line 47
+[26-Apr-2019 00:18:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php(47): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php on line 47
+[26-Apr-2019 00:30:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php(47): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php on line 47
+[26-Apr-2019 00:31:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php(47): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php on line 47
+[26-Apr-2019 00:31:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php(47): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php on line 47
+[26-Apr-2019 00:31:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php(47): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php on line 47
+[26-Apr-2019 00:31:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php(47): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php on line 47
+[26-Apr-2019 00:37:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php(47): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php on line 47
+[26-Apr-2019 00:37:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php(47): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/labs/lab8/api/favoritesAPI.php on line 47
