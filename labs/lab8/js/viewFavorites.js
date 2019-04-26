@@ -4,9 +4,7 @@ $.ajax({
     url: "api/favoritesAPI.php",
     dataType: "json",
     data: { 
-        "action": "keyword",
-        "url": "n/a",
-        "keyword": "n/a"
+        "action": "keyword"
     },
      success: function(data, status) {
         $("#keywords").html("| ");
@@ -27,7 +25,6 @@ $(document).on('click', '.test',function() {
     dataType: "json",
     data: { 
         "action": "favorites",
-        "url": "n/a",
         "keyword": keyword
     },
      success: function(data, status) {

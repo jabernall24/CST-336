@@ -42,7 +42,6 @@
             exit();
     }
     
-    // print_r($sql);
     $stmt = $conn->prepare($sql);
     $stmt->execute($nm);
     $record = $stmt->fetchAll(PDO::FETCH_ASSOC);
