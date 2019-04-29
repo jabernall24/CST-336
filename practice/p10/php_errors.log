@@ -1,0 +1,30 @@
+[29-Apr-2019 19:19:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php on line 19
+[29-Apr-2019 19:19:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php on line 19
+[29-Apr-2019 19:29:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' quiz.taken + 1)' at line 1' in /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php on line 29
+[29-Apr-2019 19:30:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' quiz.taken + 1)' at line 1' in /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php on line 29
+[29-Apr-2019 19:31:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php(30): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php on line 30
+[29-Apr-2019 19:35:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php(30): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst-336/practice/p10/api/checkAnswer.php on line 30
