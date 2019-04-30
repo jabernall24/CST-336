@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+        <title> Lab 9: File upload </title>
     </head>
     <body>
         
@@ -13,7 +13,7 @@
         
         <form method="POST" enctype="multipart/form-data"> 
             Select file: <input type="file" name="fileName" /> <br />
-            <input type="submit"  name="uploadForm" value="Upload File" /> 
+            <button>Upload File!</button>
         </form>
 
     </body>
