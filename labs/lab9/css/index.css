@@ -1,0 +1,15 @@
+img {
+    padding: 10px;
+}
+
+img:hover {
+    width: 250px;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}

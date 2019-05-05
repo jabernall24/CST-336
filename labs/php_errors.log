@@ -1,0 +1,52 @@
+[30-Apr-2019 23:27:52 UTC] PHP Warning:  move_uploaded_file(gallery//tmp/phpgBnbDt): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:27:53 UTC] PHP Stack trace:
+[30-Apr-2019 23:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:0
+[30-Apr-2019 23:27:53 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:5
+[30-Apr-2019 23:27:53 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpgBnbDt' to 'gallery//tmp/phpgBnbDt' in /home/ubuntu/workspace/cst-336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:27:53 UTC] PHP Stack trace:
+[30-Apr-2019 23:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:0
+[30-Apr-2019 23:27:53 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:5
+[30-Apr-2019 23:28:03 UTC] PHP Warning:  move_uploaded_file(gallery//tmp/phpOIEsID): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:28:03 UTC] PHP Stack trace:
+[30-Apr-2019 23:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:0
+[30-Apr-2019 23:28:03 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:5
+[30-Apr-2019 23:28:03 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpOIEsID' to 'gallery//tmp/phpOIEsID' in /home/ubuntu/workspace/cst-336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:28:03 UTC] PHP Stack trace:
+[30-Apr-2019 23:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:0
+[30-Apr-2019 23:28:03 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:5
+[30-Apr-2019 23:28:08 UTC] PHP Warning:  move_uploaded_file(gallery//tmp/phpqBXqty): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:28:08 UTC] PHP Stack trace:
+[30-Apr-2019 23:28:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:0
+[30-Apr-2019 23:28:08 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:5
+[30-Apr-2019 23:28:08 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpqBXqty' to 'gallery//tmp/phpqBXqty' in /home/ubuntu/workspace/cst-336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:28:08 UTC] PHP Stack trace:
+[30-Apr-2019 23:28:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:0
+[30-Apr-2019 23:28:08 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:5
+[30-Apr-2019 23:29:18 UTC] PHP Warning:  move_uploaded_file(gallery//tmp/phpYkAiZU): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:29:18 UTC] PHP Stack trace:
+[30-Apr-2019 23:29:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:0
+[30-Apr-2019 23:29:18 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:5
+[30-Apr-2019 23:29:18 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpYkAiZU' to 'gallery//tmp/phpYkAiZU' in /home/ubuntu/workspace/cst-336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:29:18 UTC] PHP Stack trace:
+[30-Apr-2019 23:29:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:0
+[30-Apr-2019 23:29:18 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:5
+[30-Apr-2019 23:29:25 UTC] PHP Warning:  move_uploaded_file(gallery//tmp/phpUqQtLj): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:29:25 UTC] PHP Stack trace:
+[30-Apr-2019 23:29:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:0
+[30-Apr-2019 23:29:25 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:5
+[30-Apr-2019 23:29:25 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpUqQtLj' to 'gallery//tmp/phpUqQtLj' in /home/ubuntu/workspace/cst-336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:29:25 UTC] PHP Stack trace:
+[30-Apr-2019 23:29:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:0
+[30-Apr-2019 23:29:25 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:5
+[30-Apr-2019 23:29:43 UTC] PHP Warning:  move_uploaded_file(gallery//tmp/phpZenmRj): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst-336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:29:43 UTC] PHP Stack trace:
+[30-Apr-2019 23:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:0
+[30-Apr-2019 23:29:43 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:5
+[30-Apr-2019 23:29:43 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpZenmRj' to 'gallery//tmp/phpZenmRj' in /home/ubuntu/workspace/cst-336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:29:43 UTC] PHP Stack trace:
+[30-Apr-2019 23:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:0
+[30-Apr-2019 23:29:43 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:5
+[30-Apr-2019 23:35:25 UTC] PHP Warning:  count() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cst-336/labs/lab9/index.php on line 9
+[30-Apr-2019 23:35:25 UTC] PHP Stack trace:
+[30-Apr-2019 23:35:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:0
+[30-Apr-2019 23:35:25 UTC] PHP   2. count() /home/ubuntu/workspace/cst-336/labs/lab9/index.php:9
